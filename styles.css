@@ -1,7 +1,7 @@
 :root{
     --color-dark: #C3C3C3;
 
-    --font-size: 20px;
+    --font-size: 18px;
 }
 
 /* Verstecke die Pfeile für Input vom Typ "number" */
@@ -21,12 +21,35 @@ body{
     flex-wrap: wrap;
     justify-content: center;
 
-    height: 100vh;
     align-items: center;
 
     margin: 0;
     padding: 0;
 }
+
+nav{
+    top: 0;
+    position: fixed;
+}
+
+ul.ulNav{
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+a.aNav{
+    color: var(--color-dark);
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+
 
 h1, h2, h3, h4{
     margin: 0;
@@ -67,7 +90,6 @@ label, ::placeholder, input{
 }
 
 .labelInput{
-    width: 256px;
     border-radius: 6px;
 }
 
@@ -82,7 +104,8 @@ label, ::placeholder, input{
 }
 
 main, #containerInput{
-    margin: 32px;
+    margin: 64px;
+    width: 426px;
 }
 
 #containerGrid {
@@ -104,8 +127,24 @@ main, #containerInput{
         height: 8px;
     }
 
-    .labelInput {
-        width: 256px;
+    #containerInput{
+        width: 284px;
+        margin: 0;
+        padding: auto;
+        height: 100vh;
+    }
+
+    main{
+        height: 100vh;
+        padding-top: 64px;
+        margin: 0;
+        padding: auto;
+        width: 284px;
+    }
+
+    nav{
+        top: 90%;
+        position: fixed;
     }
 }
 
