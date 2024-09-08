@@ -152,6 +152,7 @@ footer {
     display: flex;
     flex-direction: column;
     gap: var(--gap-little);
+    flex: 1;
 }
 
 .event-name {
@@ -189,8 +190,8 @@ footer {
 }
 
 .event-item img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     border-radius: var(--border-radius-little);
 }
