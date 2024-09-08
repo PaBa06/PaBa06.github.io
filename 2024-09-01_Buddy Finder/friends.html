@@ -4,29 +4,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Standortfreigabe App - Freunde</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!--Google Icon-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <div class="container">
+    <header class="header">
         <h1>Freundesliste</h1>
-        <div class="friend-list">
-            <div class="friend-item">
-                <span>Freund 1</span>
-                <button class="btn">Entfernen</button>
-            </div>
-            <div class="friend-item">
-                <span>Freund 2</span>
-                <button class="btn">Entfernen</button>
+        <input type="text" placeholder="Suche nach Freunden..." class="search-input">
+        <nav class="category-list">
+            <ul>
+                <li><a href="#">Spazieren</a></li>
+                <li><a href="#">Sport</a></li>
+                <li><a href="#">Essen</a></li>
+                <li><a href="#">Kaffee</a></li>
+                <li><a href="#">Kino</a></li>
+                <li><a href="#">Spiele</a></li>
+                <li><a href="#">Kochen</a></li>
+                <li><a href="#">Museum</a></li>
+                <li><a href="#">Videospiele</a></li>
+                <li><a href="#">Konzert</a></li>
+                <li><a href="#">Reisen</a></li>
+                <li><a href="#">Wandern</a></li>
+                <li><a href="#">Kunst</a></li>
+                <li><a href="#">Tanzen</a></li>
+                <li><a href="#">Yoga</a></li>
+                <li><a href="#">Fotografie</a></li>
+                <li><a href="#">Lernen</a></li>
+                <li><a href="#">Lesen</a></li>
+                <li class="active"><a href="#">Bar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="friend-container">
+        <div class="container">
+            <div class="friend-list">
+                <div class="friend-item">
+                    <img src="https://via.placeholder.com/50" alt="Lukas Müller">
+                    <div class="friend-details">
+                        <span class="friend-name">Lukas Müller</span>
+                        <span class="friend-location">Solothurn</span>
+                    </div>
+                    <button class="btn">Details</button>
+                </div>
+                <div class="friend-item">
+                    <img src="https://via.placeholder.com/50" alt="Sarah Meier">
+                    <div class="friend-details">
+                        <span class="friend-name">Sarah Meier</span>
+                        <span class="friend-location">Bern</span>
+                    </div>
+                    <button class="btn">Details</button>
+                </div>
+                <div class="friend-item">
+                    <img src="https://via.placeholder.com/50" alt="Tobias Schmid">
+                    <div class="friend-details">
+                        <span class="friend-name">Tobias Schmid</span>
+                        <span class="friend-location">Biel</span>
+                    </div>
+                    <button class="btn">Details</button>
+                </div>
+                <div class="friend-item">
+                    <img src="https://via.placeholder.com/50" alt="Julia Steiner">
+                    <div class="friend-details">
+                        <span class="friend-name">Julia Steiner</span>
+                        <span class="friend-location">Langenthal</span>
+                    </div>
+                    <button class="btn">Details</button>
+                </div>
+                <div class="friend-item">
+                    <img src="https://via.placeholder.com/50" alt="Markus Zimmermann">
+                    <div class="friend-details">
+                        <span class="friend-name">Markus Zimmermann</span>
+                        <span class="friend-location">Burgdorf</span>
+                    </div>
+                    <button class="btn">Details</button>
+                </div>
+                <div class="friend-item">
+                    <img src="https://via.placeholder.com/50" alt="Anna Fischer">
+                    <div class="friend-details">
+                        <span class="friend-name">Anna Fischer</span>
+                        <span class="friend-location">Zuchwil</span>
+                    </div>
+                    <button class="btn">Details</button>
+                </div>
+                <div class="friend-item">
+                    <img src="https://via.placeholder.com/50" alt="Peter Berger">
+                    <div class="friend-details">
+                        <span class="friend-name">Peter Berger</span>
+                        <span class="friend-location">Oberwil bei Büren</span>
+                    </div>
+                    <button class="btn">Details</button>
+                </div>
+                <div class="friend-item">
+                    <img src="https://via.placeholder.com/50" alt="Miriam Egger">
+                    <div class="friend-details">
+                        <span class="friend-name">Miriam Egger</span>
+                        <span class="friend-location">Worb</span>
+                    </div>
+                    <button class="btn">Details</button>
+                </div>
+                <div class="friend-item">
+                    <img src="https://via.placeholder.com/50" alt="Fabian Hofmann">
+                    <div class="friend-details">
+                        <span class="friend-name">Fabian Hofmann</span>
+                        <span class="friend-location">Grenchen</span>
+                    </div>
+                    <button class="btn">Details</button>
+                </div>
+                <div class="friend-item">
+                    <img src="https://via.placeholder.com/50" alt="Laura Keller">
+                    <div class="friend-details">
+                        <span class="friend-name">Laura Keller</span>
+                        <span class="friend-location">Thun</span>
+                    </div>
+                    <button class="btn">Details</button>
+                </div>
+                <div class="friend-item">
+                    <img src="https://via.placeholder.com/50" alt="David Weber">
+                    <div class="friend-details">
+                        <span class="friend-name">David Weber</span>
+                        <span class="friend-location">Bätterkinden</span>
+                    </div>
+                    <button class="btn">Details</button>
+                </div>
+                <div class="friend-item">
+                    <img src="https://via.placeholder.com/50" alt="Nina Baumann">
+                    <div class="friend-details">
+                        <span class="friend-name">Nina Baumann</span>
+                        <span class="friend-location">Münsingen</span>
+                    </div>
+                    <button class="btn">Details</button>
+                </div>
+                <div class="friend-item">
+                    <img src="https://via.placeholder.com/50" alt="Jan Herzog">
+                    <div class="friend-details">
+                        <span class="friend-name">Jan Herzog</span>
+                        <span class="friend-location">Zollikofen</span>
+                    </div>
+                    <button class="btn">Details</button>
+                </div>
+                <!-- Weitere Freunde hier hinzufügen -->
             </div>
         </div>
-    </div>
+    </main>
 
-    <!-- Navigationsleiste -->
-    <div class="nav-bar">
-        <a href="map.html">Karte</a>
-        <a href="friends.html">Freunde</a>
-        <a href="events.html">Veranstaltungen</a>
-        <a href="settings.html">Einstellungen</a>
-    </div>
+    <footer class="navigation-bar">
+        <a href="map.html" class="nav-link"><span class="material-symbols-outlined">explore</span></a>
+        <a href="friends.html" class="nav-link"><span class="material-symbols-outlined">group</span><span>Friends</span></a>
+        <a href="events.html" class="nav-link"><span class="material-symbols-outlined">event</span></a>
+        <a href="settings.html" class="nav-link"><span class="material-symbols-outlined">settings</span></a>
+    </footer>
 </body>
 </html>

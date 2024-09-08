@@ -14,6 +14,8 @@
     --padding-little: 8px;
     --padding-normal: 16px;
 
+    --margin-little: 8px;
+
     --gap-little: 8px;
 }
 
@@ -139,4 +141,160 @@ footer {
 
 .material-symbols-outlined {
     font-size: var(--font-size-icon) !important;
+}
+
+/*Events*/
+/* Neue CSS-Klassen für die zweite Seite */
+
+/* Neue CSS-Klassen für den scrollbaren Container */
+
+.event-details {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-little);
+}
+
+.event-name {
+    font-weight: bold;
+}
+
+.event-location,
+.event-category {
+    color: gray;
+    font-size: 0.9em;
+}
+
+.event-container {
+    height: 65vh; /* Höhe des Containers, die an deine Anforderungen angepasst werden kann */
+    padding: var(--padding-normal);
+    box-sizing: border-box;
+    overflow-y: auto; /* Ermöglicht vertikales Scrollen */
+}
+
+.event-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-little);
+    max-height: 100%; /* Stellt sicher, dass die Liste nicht den gesamten verfügbaren Raum einnimmt */
+}
+
+.event-item {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-little);
+    padding: var(--padding-little);
+    background-color: var(--bg-accent-color);
+    border-radius: var(--border-radius-little);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: fügt einen kleinen Schatten hinzu */
+}
+
+.event-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: var(--border-radius-little);
+}
+
+.btn {
+    background-color: rgb(99, 15, 99);
+    color: white;
+    border: none;
+    padding: var(--padding-little);
+    border-radius: var(--border-radius-little);
+    cursor: pointer;
+}
+
+/*Friends*/
+.friend-container {
+    height: 65vh;
+    padding: var(--padding-normal);
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.friend-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-little);
+    max-height: 100%;
+}
+
+.friend-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Button nach rechts verschieben */
+    gap: var(--gap-little);
+    padding: var(--padding-little);
+    background-color: var(--bg-accent-color);
+    border-radius: var(--border-radius-little);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.friend-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.friend-details {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-little);
+    margin-left: var(--gap-little); /* Abstand zwischen Bild und Details */
+    flex: 1; /* Damit sich der Textbereich dehnt */
+}
+
+.friend-name {
+    font-weight: bold;
+    margin-bottom: 2px; /* Abstand zwischen Name und Ort */
+}
+
+.friend-location {
+    color: gray;
+    font-size: 0.9em;
+}
+
+/*Settings*/
+/* Allgemeine Container-Styles */
+.container, .settings-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Scroll-Container für die Einstellungen */
+.settings-container {
+    padding: var(--padding-normal);
+    overflow-y: auto; /* Ermöglicht vertikales Scrollen */
+    max-height: 65vh; /* Begrenzt die maximale Höhe */
+}
+
+.settings-category button{
+    margin-bottom: var(--margin-little);
+}
+
+/* Formularfeld-Styles */
+.form-group {
+    margin-bottom: var(--padding-normal);
+}
+
+label {
+    display: block;
+    margin-bottom: var(--margin-little);
+    font-weight: bold;
+}
+
+select,
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: var(--padding-little);
+    border: 1px var(--border-color-input) solid;
+    border-radius: var(--border-radius-little);
+    box-sizing: border-box;
+}
+
+.delete-account-btn {
+    background-color: red; /* Farbe für den Lösch-Button */
 }

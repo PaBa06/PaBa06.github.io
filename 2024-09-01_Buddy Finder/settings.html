@@ -4,32 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Standortfreigabe App - Einstellungen</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!--Google Icon-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <div class="container">
+    <header class="header">
         <h1>Einstellungen</h1>
-        <div class="form-group">
-            <label for="privacy">Datenschutzeinstellungen</label>
-            <select id="privacy">
-                <option>Öffentlich</option>
-                <option>Nur Freunde</option>
-                <option>Privat</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="password">Passwort ändern</label>
-            <input type="password" id="password" placeholder="Neues Passwort eingeben">
-        </div>
-        <button class="btn">Konto löschen</button>
-    </div>
+        <input type="text" placeholder="Suche..." class="search-input">
+        <nav class="category-list">
+            <ul>
+                <li><a href="#privacy">Datenschutz</a></li>
+                <li><a href="#password">Passwort</a></li>
+                <li><a href="#notifications">Benachrichtigungen</a></li>
+                <li><a href="#language">Sprache</a></li>
+                <li><a href="#2fa">Zwei-Faktor-Authentifizierung</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <div class="settings-container">
+            <div id="privacy" class="settings-category">
+                <div class="form-group">
+                    <label for="location-privacy">Wer darf deinen Standort sehen?</label>
+                    <select id="location-privacy">
+                        <option>Jeder</option>
+                        <option>Nur Freunde</option>
+                        <option>Niemand</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="password" class="settings-category">
+                <div class="form-group">
+                    <label for="new-password">Neues Passwort</label>
+                    <input type="password" id="new-password" placeholder="Neues Passwort eingeben">
+                </div>
+                <button class="btn">Passwort ändern</button>
+            </div>
+
+            <div id="notifications" class="settings-category">
+                <div class="form-group">
+                    <label for="notifications">Benachrichtigungen</label>
+                    <select id="notifications">
+                        <option>Alle Benachrichtigungen</option>
+                        <option>Nur wichtige</option>
+                        <option>Keine</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="language" class="settings-category">
+                <div class="form-group">
+                    <label for="language">Sprache</label>
+                    <select id="language">
+                        <option>Deutsch</option>
+                        <option>Englisch</option>
+                        <option>Französisch</option>
+                        <option>Spanisch</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="2fa" class="settings-category">
+                <div class="form-group">
+                    <label for="phone-number">Telefonnummer für Zwei-Faktor-Authentifizierung</label>
+                    <input type="text" id="phone-number" placeholder="Telefonnummer eingeben">
+                </div>
+                <button class="btn">2FA aktivieren</button>
+            </div>
+
+            <button class="btn delete-account-btn">Konto löschen</button>
+        </div>
+    </main>
+    
     <!-- Navigationsleiste -->
-    <div class="nav-bar">
-        <a href="map.html">Karte</a>
-        <a href="friends.html">Freunde</a>
-        <a href="events.html">Veranstaltungen</a>
-        <a href="settings.html">Einstellungen</a>
-    </div>
+    <footer class="navigation-bar">
+        <a href="map.html" class="nav-link"><span class="material-symbols-outlined">explore</span></a>
+        <a href="friends.html" class="nav-link"><span class="material-symbols-outlined">group</span></a>
+        <a href="events.html" class="nav-link"><span class="material-symbols-outlined">event</span></a>
+        <a href="settings.html" class="nav-link"><span class="material-symbols-outlined">settings</span><span>Settings</span></a>
+    </footer>
 </body>
 </html>
