@@ -8,9 +8,11 @@
 
     <!--Google Icon-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <script src="script/register.js"></script>
 </head>
 <body>
-    <div class="container">
+    <div class="register-container">
         <h1>Registrieren</h1>
         <div class="form-group">
             <label for="username">Benutzername</label>
@@ -24,8 +26,18 @@
             <label for="password">Passwort</label>
             <input type="password" id="password" placeholder="Passwort eingeben">
         </div>
-        <button class="btn">Registrieren</button>
-        <a href="index.html" class="link">Zurück zum Login</a>
+        <button class="btn" id="register_btn_register">Registrieren</button>
+
+        <div>or</div>
+
+        <div class="login-google">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/480px-Google_%22G%22_logo.svg.png" alt="">
+            <a href="">Continue with Google</a>
+        </div>
+
+        <div class="additional-links">
+            <a href="index.html" class="link">Zurück zum Login</a>
+        </div>
     </div>
 </body>
 </html>
