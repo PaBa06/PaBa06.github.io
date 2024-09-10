@@ -13,15 +13,15 @@
     --border-color-input: gray;
     --border-radius-little: 14px;
 
-    --padding-little: 8px;
+    --padding-little: 6px;
     --padding-normal: 16px;
 
     --margin-little: 8px;
 
     --gap-little: 8px;
 
-    --heigth-input: 42px;
-    --height-button: 42px;
+    --heigth-input: 36px;
+    --height-button: 36px;
 }
 
 *{
