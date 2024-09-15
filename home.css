@@ -1,0 +1,276 @@
+:root {
+    --bg-color: #fff;
+    --accent-color: #DBDBDB;
+    --accent-color-dark: #343434;
+    --accent-color-dark-transparency: #3434349d;
+
+    --txt-color: #B6B6B6;
+    --txt-black-color: #000000;
+    --txt-white-color: #fff;
+
+    --txt-weight-bold: bolder;
+
+    --margin-normal: 16px;
+
+    --font-size-p: 14px;
+    --font-size-h1: 24px;
+
+    --icon-size-little: 14px;
+    --icon-size-big: 24px;
+
+    --height-footer: 80px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: var(--font-size-h1);
+    color: var(--txt-black-color);
+}
+
+p {
+    font-size: var(--font-size-p);
+    margin: 0;
+    padding: 0;
+    color: var(--txt-color);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.txt-color-black {
+    color: var(--txt-black-color);
+}
+
+.txt-color-whtie {
+    color: var(--txt-white-color);
+}
+
+.txt-bold {
+    font-weight: var(--txt-weight-bold);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - var(--height-footer));
+    gap: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.icon-little {
+    font-size: var(--icon-size-little);
+}
+
+.icon-big {
+    font-size: var(--icon-size-big);
+}
+
+.icon-active {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+.p-hover:hover{
+    cursor: pointer;
+}
+
+/*Header*/
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-profile {
+    background-color: var(--accent-color);
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+}
+
+.icon-profile:hover {
+    cursor: pointer;
+}
+
+/*Search Bar*/
+
+.search-bar input{
+    height: 48px;
+    width: 100%;
+    border: 1px solid var(--accent-color);
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding-left: 16px;
+    outline: none;
+}
+
+/*Popular Places*/
+.popular-places {
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Filter Tabs*/
+.filter-tabs {
+
+    white-space: nowrap;
+    overflow-x: auto;
+    display: flex;
+    gap: var(--margin-normal);    
+}
+
+.filter-tabs .btn-filter-tabs {
+    height: 48px;
+    width: 128px;
+    border: 1px solid var(--accent-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.filter-tabs .btn-filter-tabs:hover {
+    background-color: var(--accent-color-dark);
+    cursor: pointer;
+}
+
+.filter-tabs .btn-filter-tabs-marked {
+    background-color: var(--accent-color-dark);
+}
+
+.filter-tabs .btn-filter-tabs-marked p{
+    color: var(--txt-white-color);
+}
+
+/*place-card*/
+.place-card {
+    white-space: nowrap;
+    overflow-x: auto;
+    display: flex;
+    gap: var(--margin-normal);
+    flex: 1;
+}
+
+.place-card .card {
+    position: relative;
+    width: 224px;
+    flex-grow: 1;
+
+    flex-shrink: 0;
+    padding: var(--margin-normal);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border-radius: 16px;
+    overflow: hidden;
+
+}
+
+.place-card .card:hover {
+    cursor: pointer;
+}
+
+.place-card .card .card-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.place-card .card .container-favorite {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.place-card .card .favorite{
+    width: 32px;
+    height: 32px;
+    background-color: var(--accent-color-dark-transparency);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--txt-color);
+    border-radius: 16px;
+}
+
+.place-card .card .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--accent-color-dark-transparency);
+    height: 80px;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.place-card .card .info div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.place-card .card .info p{
+    display: flex;
+    align-items: center;
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    height: var(--height-footer);
+    width: 100%;
+    align-items: center;
+    background-color: var(--accent-color);
+    border-radius: 16px 16px 0 0;
+}
+
+footer span:hover {
+    cursor: pointer;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+@media (min-width: 900px) {
+    .place-card .card {
+        width: 320px;
+    }
+}
