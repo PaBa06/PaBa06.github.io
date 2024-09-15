@@ -21,6 +21,10 @@
     --height-footer: 80px;
 }
 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -47,6 +51,11 @@ p {
     margin: 0;
     padding: 0;
     color: var(--txt-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--txt-black-color);
 }
 
 .material-symbols-outlined {
