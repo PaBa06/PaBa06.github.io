@@ -6,6 +6,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function register(){
-        window.location.href = 'map.html';
+        window.location.href = 'home.html';
     }
 })
