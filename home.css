@@ -14,6 +14,7 @@
 
     --font-size-p: 14px;
     --font-size-h1: 24px;
+    --font-size-h2: 16px;
 
     --icon-size-little: 14px;
     --icon-size-big: 24px;
@@ -44,6 +45,12 @@ h6 {
 h1 {
     font-size: var(--font-size-h1);
     color: var(--txt-black-color);
+}
+
+h2 {
+    font-size: var(--font-size-h2);
+    font-weight: normal;
+    color: var(--txt-color);
 }
 
 p {
@@ -146,10 +153,9 @@ header {
 
 /*Filter Tabs*/
 .filter-tabs {
-
     white-space: nowrap;
     overflow-x: auto;
-    display: flex;
+    display: none;
     gap: var(--margin-normal);    
 }
 
@@ -278,8 +284,115 @@ footer span:hover {
     'opsz' 24
 }
 
+/*Card*/
+#card-container {
+    height: 100vh;
+    padding: var(--margin-normal);
+    display: flex;
+    flex-direction: column;
+    gap: var(--margin-normal);
+    box-sizing: border-box;
+}
+
+#card-container .container-btn {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: var(--margin-normal);
+    box-sizing: border-box;
+}
+
+#card-container .container-btn .btn {
+    margin: var(--margin-normal);
+    background-color: var(--accent-color-dark-transparency);
+    border-radius: 16px;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-gallery{
+    height: 40%;
+}
+
+.image-gallery .container-image {
+    overflow-x: auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: var(--margin-normal);
+}
+
+.image-gallery .container-image img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.card-infos{
+    flex-grow: 1;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: var(--margin-normal);
+}
+
+.card-infos .card-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-infos .container-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-infos .container-map {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.card-infos .container-icon div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.card-btn{
+    min-height: 48px;
+    max-height: 48px;
+    background-color: var(--accent-color-dark);
+    color: var(--txt-white-color);
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.card-btn div {
+    display: flex;
+    align-items: center;
+    gap: var(--margin-normal);
+}
+
+.card-btn div p {
+    color: var(--txt-white-color);
+}
+
+/*Media Sizes*/
+
 @media (min-width: 900px) {
     .place-card .card {
         width: 320px;
+    }
+
+    .filter-tabs {
+        display: flex;
     }
 }
