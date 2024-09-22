@@ -1,0 +1,259 @@
+/*Reset / Normalize*/
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--txt-color);
+}
+
+button {
+    border: none;
+    background-color: var(--primary-color);
+}
+
+input {
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--txt-color);
+    outline: none;
+}
+
+input::placeholder {
+    color: var(--txt-color);
+}
+
+/*Variablen*/
+:root {
+    --primary-color: #fff;
+    --secondary-color: #DBDBDB;
+    --contrast-color: #343434;
+    --contrast-color-transparent: rgba(66, 66, 66, 0.5);
+
+    --font-family: 'Arial', sans-serif;
+
+    --txt-color: #B6B6B6;
+    --txt-color-dark: #000;
+    --txt-color-bright: #fff;
+
+    --primary-gap: 16px;
+    --secondary-gap: 8px;
+
+    --primary-padding: 16px;
+    --secondary-padding: 8px;
+
+    --primary-border-radius: 16px;
+
+    --primary-font-size: 14px;
+    --h2-font-size: 16px;
+    --icon-font-size: 14px;
+}
+
+/*Globale Stile wie Schrifarten, Farben, Grundlayout*/
+body {
+    display: flex;
+    flex-direction: column;
+    gap: var(--primary-gap);
+    font-family: var(--font-family);
+    background-color: var(--primary-color);
+    color: var(--txt-color);
+    margin: 0;
+    padding: var(--primary-padding);
+    box-sizing: border-box;
+    min-height: 100vh;
+    font-size: var(--primary-font-size);
+}
+
+/*Layout*/
+.horizontal-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.horizontal-flex-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.horizontal-item {
+    display: flex;
+    align-items: center;
+    gap: var(--secondary-gap);
+}
+
+.horizontal-scroll {
+    display: flex;
+    /* Setzt die Elemente in eine horizontale Linie */
+    overflow-x: auto;
+    /* Aktiviert das horizontale Scrollen */
+    white-space: nowrap;
+    /* Verhindert, dass die Elemente umbrechen */
+    scroll-behavior: smooth;
+    /* Ermöglicht ein sanftes Scrollen */
+    gap: var(--secondary-gap);
+}
+
+.vertical-gap-secondary {
+    display: flex;
+    flex-direction: column;
+    gap: var(--secondary-gap);
+}
+
+.padding-primary {
+    padding: var(--primary-padding);
+}
+
+/*Typografie*/
+.txt-color-dark {
+    color: var(--txt-color-dark) !important;
+}
+
+.txt-color-bright {
+    color: var(--txt-color-bright) !important;
+}
+
+.txt-color-normal {
+    color: var(--txt-color) !important;
+}
+
+/*Komponenten wie Buttons*/
+h2 {
+    font-size: var(--h2-font-size);
+}
+
+img {
+    object-fit: cover;
+    border-radius: var(--primary-border-radius);
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--secondary-gap);
+    background-color: var(--contrast-color);
+    color: var(--txt-color-bright);
+    border-radius: var(--primary-border-radius);
+}
+
+input {
+    border: var(--txt-color) 1px solid;
+    width: 100%;
+    padding: var(--secondary-padding);
+    border-radius: var(--primary-border-radius);
+}
+
+.material-symbols-outlined {
+    color: var(--txt-color-dark);
+    font-size: var(--icon-font-size);
+}
+
+/*Layouts / Sektionen wie Header, Footer, Sidebar*/
+
+/*card.html*/
+#card-btn-book-now {
+    width: 100%;
+    height: 48px;
+    color: var(--txt-color-bright);
+}
+
+.card-container-image-gallery {
+    width: 100%;
+    height: 35vh;
+}
+
+.card-information {
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+/*Home*/
+/*place-card*/
+.home-container-card {
+    flex: 1;
+}
+
+.home-card {
+    position: relative;
+    width: 224px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.home-card-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.home-card-infos {
+    background-color: var(--contrast-color-transparent);
+    border-radius: var(--primary-border-radius);
+    padding: var(--primary-padding);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Media Queries*/
+@media screen and (orientation: portrait) {
+
+    /* Styles für Hochformat */
+    .img-image-gallery {
+        width: 100%;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .home-card {
+        width: 22%;
+    }
+}

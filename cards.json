@@ -1,0 +1,618 @@
+[
+    {
+        "title": "Eiffel Tower",
+        "location": "Paris, France",
+        "views": 632,
+        "rating": 4.7,
+        "imgSrc": "img/pexels-alexazabache-3250362.jpg",
+        "distance": 400.6
+    },
+    {
+        "title": "Grand Canyon",
+        "location": "Arizona, USA",
+        "views": 521,
+        "rating": 4.9,
+        "imgSrc": "img/pexels-ekrulila-2127789.jpg",
+        "distance": 8925.7
+    },
+    {
+        "title": "Colosseum",
+        "location": "Rome, Italy",
+        "views": 478,
+        "rating": 4.8,
+        "imgSrc": "img/pexels-freenwrld-1635086.jpg",
+        "distance": 693.3
+    },
+    {
+        "title": "Niagara Falls",
+        "location": "Ontario, Canada",
+        "views": 412,
+        "rating": 4.5,
+        "imgSrc": "img/pexels-josh-hild-1270765-3859774.jpg",
+        "distance": 6421.8
+    },
+    {
+        "title": "Machu Picchu",
+        "location": "Cusco Region, Peru",
+        "views": 356,
+        "rating": 4.8,
+        "imgSrc": "img/pexels-lukas-rodriguez-1845331-3680219.jpg",
+        "distance": 10210.0
+    },
+    {
+        "title": "Great Wall",
+        "location": "Beijing, China",
+        "views": 328,
+        "rating": 4.6,
+        "imgSrc": "img/pexels-ollivves-1122413.jpg",
+        "distance": 8071.1
+    },
+    {
+        "title": "Santorini",
+        "location": "Santorini, Greece",
+        "views": 307,
+        "rating": 4.9,
+        "imgSrc": "img/pexels-quang-nguyen-vinh-222549-2132126.jpg",
+        "distance": 1591.3
+    },
+    {
+        "title": "Statue of Liberty",
+        "location": "New York, USA",
+        "views": 845,
+        "rating": 4.8,
+        "imgSrc": "img/pexels-alexazabache-3250362.jpg",
+        "distance": 6225.9
+    },
+    {
+        "title": "Sydney Opera House",
+        "location": "Sydney, Australia",
+        "views": 784,
+        "rating": 4.7,
+        "imgSrc": "img/pexels-ekrulila-2127789.jpg",
+        "distance": 16689.4
+    },
+    {
+        "title": "Mount Fuji",
+        "location": "Honshu, Japan",
+        "views": 726,
+        "rating": 4.9,
+        "imgSrc": "img/pexels-freenwrld-1635086.jpg",
+        "distance": 9740.2
+    },
+    {
+        "title": "Christ the Redeemer",
+        "location": "Rio de Janeiro, Brazil",
+        "views": 689,
+        "rating": 4.8,
+        "imgSrc": "img/pexels-josh-hild-1270765-3859774.jpg",
+        "distance": 9410.7
+    },
+    {
+        "title": "Petra",
+        "location": "Ma'an, Jordan",
+        "views": 672,
+        "rating": 4.9,
+        "imgSrc": "img/pexels-lukas-rodriguez-1845331-3680219.jpg",
+        "distance": 3038.9
+    },
+    {
+        "title": "Stonehenge",
+        "location": "Wiltshire, England",
+        "views": 655,
+        "rating": 4.6,
+        "imgSrc": "img/pexels-ollivves-1122413.jpg",
+        "distance": 797.7
+    },
+    {
+        "title": "Mount Kilimanjaro",
+        "location": "Kilimanjaro, Tanzania",
+        "views": 637,
+        "rating": 4.8,
+        "imgSrc": "img/pexels-quang-nguyen-vinh-222549-2132126.jpg",
+        "distance": 6210.0
+    },
+    {
+        "title": "Taj Mahal",
+        "location": "Agra, India",
+        "views": 622,
+        "rating": 4.9,
+        "imgSrc": "img/pexels-alexazabache-3250362.jpg",
+        "distance": 6138.3
+    },
+    {
+        "title": "Banff National Park",
+        "location": "Alberta, Canada",
+        "views": 609,
+        "rating": 4.8,
+        "imgSrc": "img/pexels-ekrulila-2127789.jpg",
+        "distance": 7706.6
+    },
+    {
+        "title": "Pyramids of Giza",
+        "location": "Giza, Egypt",
+        "views": 592,
+        "rating": 4.7,
+        "imgSrc": "img/pexels-freenwrld-1635086.jpg",
+        "distance": 2786.4
+    },
+    {
+        "title": "Galapagos Islands",
+        "location": "Galapagos, Ecuador",
+        "views": 578,
+        "rating": 4.9,
+        "imgSrc": "img/pexels-josh-hild-1270765-3859774.jpg",
+        "distance": 10225.5
+    },
+    {
+        "title": "Mount Everest",
+        "location": "Himalayas, Nepal",
+        "views": 562,
+        "rating": 4.8,
+        "imgSrc": "img/pexels-lukas-rodriguez-1845331-3680219.jpg",
+        "distance": 6477.3
+    },
+    {
+        "title": "Sagrada Familia",
+        "location": "Barcelona, Spain",
+        "views": 548,
+        "rating": 4.6,
+        "imgSrc": "img/pexels-ollivves-1122413.jpg",
+        "distance": 746.5
+    },
+    {
+        "title": "Angkor Wat",
+        "location": "Siem Reap, Cambodia",
+        "views": 532,
+        "rating": 4.9,
+        "imgSrc": "img/pexels-quang-nguyen-vinh-222549-2132126.jpg",
+        "distance": 9547.9
+    },
+    {
+        "title": "Blue Lagoon",
+        "location": "Grindavík, Iceland",
+        "views": 521,
+        "rating": 4.7,
+        "imgSrc": "img/pexels-alexazabache-3250362.jpg",
+        "distance": 2632.2
+    },
+    {
+        "title": "Uluru",
+        "location": "Northern Territory, Australia",
+        "views": 512,
+        "rating": 4.8,
+        "imgSrc": "img/pexels-ekrulila-2127789.jpg",
+        "distance": 15542.1
+    },
+    {
+        "title": "Buckingham Palace",
+        "location": "London, England",
+        "views": 498,
+        "rating": 4.7,
+        "imgSrc": "img/pexels-freenwrld-1635086.jpg",
+        "distance": 757.7
+    },
+    {
+        "title": "Versailles Palace",
+        "location": "Versailles, France",
+        "views": 489,
+        "rating": 4.6,
+        "imgSrc": "img/pexels-josh-hild-1270765-3859774.jpg",
+        "distance": 404.9
+    },
+    {
+        "title": "Alhambra",
+        "location": "Granada, Spain",
+        "views": 473,
+        "rating": 4.9,
+        "imgSrc": "img/pexels-lukas-rodriguez-1845331-3680219.jpg",
+        "distance": 1372.5
+    },
+    {
+        "title": "Forbidden City",
+        "location": "Beijing, China",
+        "views": 462,
+        "rating": 4.7,
+        "imgSrc": "img/pexels-ollivves-1122413.jpg",
+        "distance": 8071.1
+    },
+    {
+        "title": "Eiserner Steg",
+        "location": "Frankfurt, Deutschland",
+        "views": 6351,
+        "rating": 4.5,
+        "imgSrc": "img/pexels-alex-zhernovyi-2036204-3822486.jpg",
+        "distance": 481.2
+    },
+    {
+        "title": "Zytglogge",
+        "location": "Bern, Schweiz",
+        "views": 542,
+        "rating": 4.8,
+        "imgSrc": "img/pexels-frans-van-heerden-201846-723180.jpg",
+        "distance": 30.0
+    },
+    {
+        "title": "Château de Chambord",
+        "location": "Loir-et-Cher, Frankreich",
+        "views": 450,
+        "rating": 4.7,
+        "imgSrc": "img/pexels-lukas-rodriguez-1845331-3680219.jpg",
+        "distance": 780.5
+    },
+    {
+        "title": "Schwarzsee",
+        "location": "Küsnacht, Schweiz",
+        "views": 320,
+        "rating": 4.6,
+        "imgSrc": "img/pexels-ollivves-1122413.jpg",
+        "distance": 50.2
+    },
+    {
+        "title": "Brandenburg Gate",
+        "location": "Berlin, Deutschland",
+        "views": 900,
+        "rating": 4.8,
+        "imgSrc": "img/pexels-alexazabache-3214975.jpg",
+        "distance": 580.3
+    },
+    {
+        "title": "Neuschwanstein Castle",
+        "location": "Bayern, Deutschland",
+        "views": 1200,
+        "rating": 4.7,
+        "imgSrc": "img/pexels-ashleyelena-705782.jpg",
+        "distance": 800.8
+    },
+    {
+        "title": "Matterhorn",
+        "location": "Zermatt, Schweiz",
+        "views": 1530,
+        "rating": 4.9,
+        "imgSrc": "img/pexels-martinpechy-1028225.jpg",
+        "distance": 150.0
+    },
+    {
+        "title": "Eiger",
+        "location": "Grindelwald, Schweiz",
+        "views": 820,
+        "rating": 4.8,
+        "imgSrc": "img/pexels-kasuma-1785493.jpg",
+        "distance": 175.3
+    },
+    {
+        "title": "Vatican City",
+        "location": "Rom, Italien",
+        "views": 2100,
+        "rating": 4.9,
+        "imgSrc": "img/pexels-rickyrecap-1586298.jpg",
+        "distance": 120.0
+    },
+    {
+        "title": "Siena Cathedral",
+        "location": "Siena, Italien",
+        "views": 750,
+        "rating": 4.6,
+        "imgSrc": "img/pexels-tobiasbjorkli-1853354.jpg",
+        "distance": 610.0
+    },
+    {
+        "title": "Cologne Cathedral",
+        "location": "Köln, Deutschland",
+        "views": 1900,
+        "rating": 4.7,
+        "imgSrc": "img/pexels-rene-boehlen-361077-1203017.jpg",
+        "distance": 600.4
+    },
+    {
+        "title": "Hohenzollern Castle",
+        "location": "Baden-Württemberg, Deutschland",
+        "views": 700,
+        "rating": 4.5,
+        "imgSrc": "img/pexels-ninetysevenyears-28528632.jpg",
+        "distance": 300.6
+    },
+    {
+        "title": "Luzern Kapellbrücke",
+        "location": "Luzern, Schweiz",
+        "views": 1320,
+        "rating": 4.8,
+        "imgSrc": "img/pexels-roman-jaquez-948741-2406772.jpg",
+        "distance": 200.7
+    },
+    {
+        "title": "Brügge Stadtplatz",
+        "location": "Brügge, Belgien",
+        "views": 900,
+        "rating": 4.7,
+        "imgSrc": "img/pexels-alexazabache-3214969.jpg",
+        "distance": 640.0
+    },
+    {
+        "title": "Edinburgh Castle",
+        "location": "Edinburgh, Schottland",
+        "views": 1800,
+        "rating": 4.6,
+        "imgSrc": "img/pexels-jeffrey-czum-254391-2346216.jpg",
+        "distance": 1130.2
+    },
+    {
+        "title": "Alpenzoo",
+        "location": "Innsbruck, Österreich",
+        "views": 415,
+        "rating": 4.4,
+        "imgSrc": "img/pexels-daniel-lazarov-1357330-2762921.jpg",
+        "distance": 900.1
+    },
+    {
+        "title": "Gurten Park",
+        "location": "Bern, Schweiz",
+        "views": 500,
+        "rating": 4.5,
+        "imgSrc": "img/pexels-suissounet-2068479.jpg",
+        "distance": 40.3
+    },
+    {
+        "title": "Zürichsee",
+        "location": "Zürich, Schweiz",
+        "views": 1500,
+        "rating": 4.7,
+        "imgSrc": "img/pexels-lucas-veiga-reis-1152403-28544173.jpg",
+        "distance": 110.4
+    },
+    {
+        "title": "Schloss Neuschwanstein",
+        "location": "Bayern, Deutschland",
+        "views": 1300,
+        "rating": 4.9,
+        "imgSrc": "img/pexels-josh-hild-1270765-3859774.jpg",
+        "distance": 780.6
+    },
+    {
+        "title": "Torre di Pisa",
+        "location": "Pisa, Italien",
+        "views": 2000,
+        "rating": 4.7,
+        "imgSrc": "img/pexels-ekrulila-2127789.jpg",
+        "distance": 1300.8
+    },
+    {
+        "title": "Palace of Westminster",
+        "location": "London, England",
+        "views": 1800,
+        "rating": 4.6,
+        "imgSrc": "img/pexels-alexazabache-3250362.jpg",
+        "distance": 500.5
+    },
+    {
+        "title": "Mont Saint-Michel",
+        "location": "Frankreich",
+        "views": 2500,
+        "rating": 4.8,
+        "imgSrc": "img/pexels-margerretta-548077.jpg",
+        "distance": 620.9
+    },
+    {
+        "title": "Duomo di Milano",
+        "location": "Mailand, Italien",
+        "views": 2700,
+        "rating": 4.7,
+        "imgSrc": "img/pexels-roman-odintsov-4553618.jpg",
+        "distance": 1500.3
+    },
+    {
+        "title": "Petersdom",
+        "location": "Rom, Italien",
+        "views": 3200,
+        "rating": 4.9,
+        "imgSrc": "img/pexels-rickyrecap-1586298.jpg",
+        "distance": 150.0
+    },
+    {
+        "title": "Castel del Monte",
+        "location": "Apulien, Italien",
+        "views": 500,
+        "rating": 4.6,
+        "imgSrc": "img/pexels-alexazabache-3264723.jpg",
+        "distance": 1800.0
+    },
+    {
+        "title": "San Francisco De Asis Mission Church",
+        "location": "Taos, New Mexico, USA",
+        "views": 450,
+        "rating": 4.8,
+        "imgSrc": "img/pexels-lex-blais-2077098.jpg",
+        "distance": 5000.5
+    },
+    {
+        "title": "Canal Grande",
+        "location": "Venedig, Italien",
+        "views": 1250,
+        "rating": 4.8,
+        "imgSrc": "img/pexels-alexazabache-3250362.jpg",
+        "distance": 560.0
+    },
+    {
+        "title": "Cotswolds",
+        "location": "England",
+        "views": 920,
+        "rating": 4.5,
+        "imgSrc": "img/pexels-wolfgang-weiser-467045605-28546550.jpg",
+        "distance": 750.0
+    },
+    {
+        "title": "Louvre Museum",
+        "location": "Paris, Frankreich",
+        "views": 3200,
+        "rating": 4.9,
+        "imgSrc": "img/pexels-roman-jaquez-948741-2406772.jpg",
+        "distance": 600.0
+    },
+    {
+        "title": "Montmartre",
+        "location": "Paris, Frankreich",
+        "views": 1850,
+        "rating": 4.7,
+        "imgSrc": "img/pexels-alexazabache-3214975.jpg",
+        "distance": 300.0
+    },
+    {
+        "title": "Belvedere Palace",
+        "location": "Wien, Österreich",
+        "views": 600,
+        "rating": 4.8,
+        "imgSrc": "img/pexels-lucas-veiga-reis-1152403-28544173.jpg",
+        "distance": 1000.1
+    },
+    {
+        "title": "Torre de Belem",
+        "location": "Lissabon, Portugal",
+        "views": 800,
+        "rating": 4.5,
+        "imgSrc": "img/pexels-lukas-rodriguez-1845331-3680219.jpg",
+        "distance": 350.2
+    },
+    {
+        "title": "Palace of Versailles",
+        "location": "Versailles, Frankreich",
+        "views": 1800,
+        "rating": 4.8,
+        "imgSrc": "img/pexels-alexazabache-3264723.jpg",
+        "distance": 100.4
+    },
+    {
+        "title": "Cathedral of Santa Maria del Fiore",
+        "location": "Florenz, Italien",
+        "views": 1100,
+        "rating": 4.9,
+        "imgSrc": "img/pexels-ollivves-1122413.jpg",
+        "distance": 600.3
+    },
+    {
+        "title": "Kölner Dom",
+        "location": "Köln, Deutschland",
+        "views": 900,
+        "rating": 4.7,
+        "imgSrc": "img/pexels-ashleyelena-705782.jpg",
+        "distance": 650.0
+    },
+    {
+        "title": "Puy du Fou",
+        "location": "Les Epesses, Frankreich",
+        "views": 1000,
+        "rating": 4.9,
+        "imgSrc": "img/pexels-ninetysevenyears-28528632.jpg",
+        "distance": 700.5
+    },
+    {
+        "title": "Château de Chenonceau",
+        "location": "Chenonceaux, Frankreich",
+        "views": 750,
+        "rating": 4.6,
+        "imgSrc": "img/pexels-roman-odintsov-4553618.jpg",
+        "distance": 920.0
+    },
+    {
+        "title": "Reichstag",
+        "location": "Berlin, Deutschland",
+        "views": 600,
+        "rating": 4.7,
+        "imgSrc": "img/pexels-alexazabache-3250362.jpg",
+        "distance": 450.0
+    },
+    {
+        "title": "Felsenburg",
+        "location": "Wales, Großbritannien",
+        "views": 550,
+        "rating": 4.5,
+        "imgSrc": "img/pexels-leonarddahmen-2917106.jpg",
+        "distance": 1300.0
+    },
+    {
+        "title": "Alte Nationalgalerie",
+        "location": "Berlin, Deutschland",
+        "views": 400,
+        "rating": 4.8,
+        "imgSrc": "img/pexels-tracehudson-2589010.jpg",
+        "distance": 450.0
+    },
+    {
+        "title": "Eremitage",
+        "location": "Sankt Petersburg, Russland",
+        "views": 600,
+        "rating": 4.9,
+        "imgSrc": "img/pexels-rickyrecap-1586298.jpg",
+        "distance": 800.0
+    },
+    {
+        "title": "St. Vitus Cathedral",
+        "location": "Prag, Tschechische Republik",
+        "views": 800,
+        "rating": 4.7,
+        "imgSrc": "img/pexels-roman-jaquez-948741-2406772.jpg",
+        "distance": 500.0
+    },
+    {
+        "title": "Rosenberg Castle",
+        "location": "Kopenhagen, Dänemark",
+        "views": 300,
+        "rating": 4.6,
+        "imgSrc": "img/pexels-daniel-lazarov-1357330-2762921.jpg",
+        "distance": 1200.0
+    },
+    {
+        "title": "Sächsische Schweiz",
+        "location": "Dresden, Deutschland",
+        "views": 700,
+        "rating": 4.5,
+        "imgSrc": "img/pexels-tracehudson-2589010.jpg",
+        "distance": 800.0
+    },
+    {
+        "title": "Kunsthistorisches Museum",
+        "location": "Wien, Österreich",
+        "views": 900,
+        "rating": 4.8,
+        "imgSrc": "img/pexels-ashleyelena-705782.jpg",
+        "distance": 400.0
+    },
+    {
+        "title": "Alte Pinakothek",
+        "location": "München, Deutschland",
+        "views": 650,
+        "rating": 4.7,
+        "imgSrc": "img/pexels-lucas-veiga-reis-1152403-28544173.jpg",
+        "distance": 500.0
+    },
+    {
+        "title": "Galleria Vittorio Emanuele II",
+        "location": "Mailand, Italien",
+        "views": 1100,
+        "rating": 4.6,
+        "imgSrc": "img/pexels-kasuma-1785493.jpg",
+        "distance": 600.0
+    },
+    {
+        "title": "Neues Rathaus",
+        "location": "München, Deutschland",
+        "views": 800,
+        "rating": 4.8,
+        "imgSrc": "img/pexels-ollivves-1122413.jpg",
+        "distance": 500.0
+    },
+    {
+        "title": "St. George's Hall",
+        "location": "Liverpool, England",
+        "views": 400,
+        "rating": 4.5,
+        "imgSrc": "img/pexels-ninetysevenyears-28528632.jpg",
+        "distance": 1500.0
+    },
+    {
+        "title": "Athen Parthenon",
+        "location": "Athen, Griechenland",
+        "views": 1600,
+        "rating": 4.8,
+        "imgSrc": "img/pexels-margerretta-548077.jpg",
+        "distance": 1200.0
+    }
+]

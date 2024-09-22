@@ -4,181 +4,165 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buddy Finder</title>
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="styles.css">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
     <script src="script/home.js"></script>
 </head>
 <body>
-    <div id="container">
         <header>
             <div class="container-header">
-                <h1>Hi, Pascal 👋</h1>
+                <h1 class="txt-color-dark">Hi, Pascal 👋</h1>
                 <p>Explore the World</p>
             </div>
             <div class="icon-profile"></div>
         </header>
     
         <section class="search-bar">
-            <input type="search" name="" id="" placeholder="Search places">
-        </section>
-    
-        <section class="popular-places">
-            <p><span class="material-symbols-outlined txt-color-black p-hover" id="home_btn_show_filter_tabs">tune</span></p>
-            <p class="p-hover">View all</p>
+            <input type="search" name="" id="home-input-search-places" placeholder="Search places">
         </section>
     
         <section class="filter-tabs" id="home-filter-tabs">
-            <div class="btn-filter-tabs btn-filter-tabs-marked">
-                <p>Most Viewed</p>
-            </div>
-            <div class="btn-filter-tabs">
-                <p>Nearby</p>
-            </div>
-            <div class="btn-filter-tabs">
-                <p>Latest</p>
-            </div>
+            <ul class="horizontal-item">
+                <li class="txt-color-dark" id="home-btn-view-all">View all</li>
+                <li id="home-btn-most-viewed">Most Viewed</li>
+                <li id="home-btn-nearby">Nearby</li>
+                <li id="home-btn-highest-rating">Highest rating</li>
+            </ul>
         </section>
     
-        <section class="place-card">
-            <a href="card.html" class="card">
-                <img src="img/pexels-alexazabache-3250362.jpg" alt="" class="card-background">
-                <div class="container-favorite">
-                    <div class="favorite">
-                        <span class="material-symbols-outlined">favorite</span>
-                    </div>
+        <section class="home-container-card horizontal-scroll">
+            <a href="card.html" class="home-card">
+                <img src="img/pexels-alexazabache-3250362.jpg" alt="" class="home-card-background">
+                <div class="horizontal-flex-end">
+                    <span class="material-symbols-outlined padding-primary txt-color-normal">favorite</span>
                 </div>
-                <div class="info">
-                    <div>
-                        <p><span class="txt-color-whtie txt-bold">Eiffel Tower, </span></p>
-                        <p>632<span class="material-symbols-outlined" id="icon-little">visibility</span></p>
-                    </div>
-                    <div>
-                        <p>Paris, France</p>
-                        <p>4.7<span class="material-symbols-outlined" id="icon-little">star</span></p>
-                    </div>
+                <div class="home-card-infos">
+                    <ul class="horizontal-space-between">
+                        <li><h2 class="txt-color-whtie txt-bold">Eiffel Tower, </h2></li>
+                        <li class="horizontal-item"><p>632</p><span class="material-symbols-outlined txt-color-normal" id="icon-little">visibility</span></li>
+                    </ul>
+                    <ul class="horizontal-space-between">
+                        <li>Paris, France</li>
+                        <li class="horizontal-item"><p>4.7</p><span class="material-symbols-outlined txt-color-normal" id="icon-little">star</span></li>
+                    </ul>
                 </div>
             </a>
-            <a href="card.html" class="card">
-                <img src="img/pexels-ekrulila-2127789.jpg" alt="" class="card-background">
-                <div class="container-favorite">
-                    <div class="favorite">
-                        <span class="material-symbols-outlined">favorite</span>
-                    </div>
+            <a href="card.html" class="home-card">
+                <img src="img/pexels-ekrulila-2127789.jpg" alt="" class="home-card-background">
+                <div class="horizontal-flex-end">
+                    <span class="material-symbols-outlined padding-primary txt-color-normal">favorite</span>
                 </div>
-                <div class="info">
-                    <div>
-                        <p><span class="txt-color-whtie txt-bold">Grand Canyon, </span></p>
-                        <p>521<span class="material-symbols-outlined" id="icon-little">visibility</span></p>
-                    </div>
-                    <div>
-                        <p>Arizona, USA</p>
-                        <p>4.9<span class="material-symbols-outlined" id="icon-little">star</span></p>
-                    </div>
+                <div class="home-card-infos">
+                    <ul class="horizontal-space-between">
+                        <li><h2 class="txt-color-whtie txt-bold">Grand Canyon, </h2></p>
+                        <li class="horizontal-item"><p>521</p><span class="material-symbols-outlined txt-color-normal" id="icon-little">visibility</span></li>
+                    </ul>
+                    <ul class="horizontal-space-between">
+                        <li>Arizona, USA</p>
+                        <li class="horizontal-item"><p>4.9</p><span class="material-symbols-outlined txt-color-normal" id="icon-little">star</span></li>
+                    </ul>
                 </div>
             </a>
-            <a href="card.html" class="card">
-                <img src="img/pexels-freenwrld-1635086.jpg" alt="" class="card-background">
-                <div class="container-favorite">
-                    <div class="favorite">
-                        <span class="material-symbols-outlined">favorite</span>
-                    </div>
+            <a href="card.html" class="home-card">
+                <img src="img/pexels-freenwrld-1635086.jpg" alt="" class="home-card-background">
+
+                <div class="horizontal-flex-end">
+                    <span class="material-symbols-outlined padding-primary txt-color-normal">favorite</span>
                 </div>
-                <div class="info">
-                    <div>
-                        <p><span class="txt-color-whtie txt-bold">Colosseum, </span></p>
-                        <p>478<span class="material-symbols-outlined" id="icon-little">visibility</span></p>
-                    </div>
-                    <div>
-                        <p>Rome, Italy</p>
-                        <p>4.8<span class="material-symbols-outlined" id="icon-little">star</span></p>
-                    </div>
-                </div>
-            </a>
-            <a href="card.html" class="card">
-                <img src="img/pexels-josh-hild-1270765-3859774.jpg" alt="" class="card-background">
-                <div class="container-favorite">
-                    <div class="favorite">
-                        <span class="material-symbols-outlined">favorite</span>
-                    </div>
-                </div>
-                <div class="info">
-                    <div>
-                        <p><span class="txt-color-whtie txt-bold">Niagara Falls, </span></p>
-                        <p>412<span class="material-symbols-outlined" id="icon-little">visibility</span></p>
-                    </div>
-                    <div>
-                        <p>Ontario, Canada</p>
-                        <p>4.5<span class="material-symbols-outlined" id="icon-little">star</span></p>
-                    </div>
+
+                <div class="home-card-infos">
+                    <ul class="horizontal-space-between">
+                        <li><h2 class="txt-color-whtie txt-bold">Colosseum, </h2></li>
+                        <li class="horizontal-item">478<span class="material-symbols-outlined txt-color-normal" id="icon-little">visibility</span></li>
+                    </ul>
+                    <ul class="horizontal-space-between">
+                        <li><p>Rome, Italy</p></li>
+                        <li class="horizontal-item"><p>4.8</p><span class="material-symbols-outlined txt-color-normal" id="icon-little">star</span></li>
+                    </ul>
                 </div>
             </a>
-            <a href="card.html" class="card">
-                <img src="img/pexels-lukas-rodriguez-1845331-3680219.jpg" alt="" class="card-background">
-                <div class="container-favorite">
-                    <div class="favorite">
-                        <span class="material-symbols-outlined">favorite</span>
-                    </div>
+            <a href="card.html" class="home-card">
+                <img src="img/pexels-josh-hild-1270765-3859774.jpg" alt="" class="home-card-background">
+                <div class="horizontal-flex-end">
+                    <span class="material-symbols-outlined padding-primary txt-color-normal">favorite</span>
                 </div>
-                <div class="info">
-                    <div>
-                        <p><span class="txt-color-whtie txt-bold">Machu Picchu, </span></p>
-                        <p>356<span class="material-symbols-outlined" id="icon-little">visibility</span></p>
-                    </div>
-                    <div>
-                        <p>Cusco Region, Peru</p>
-                        <p>4.8<span class="material-symbols-outlined" id="icon-little">star</span></p>
-                    </div>
-                </div>
-            </a>
-            <a href="card.html" class="card">
-                <img src="img/pexels-ollivves-1122413.jpg" alt="" class="card-background">
-                <div class="container-favorite">
-                    <div class="favorite">
-                        <span class="material-symbols-outlined">favorite</span>
-                    </div>
-                </div>
-                <div class="info">
-                    <div>
-                        <p><span class="txt-color-whtie txt-bold">Great Wall, </span></p>
-                        <p>328<span class="material-symbols-outlined" id="icon-little">visibility</span></p>
-                    </div>
-                    <div>
-                        <p>Beijing, China</p>
-                        <p>4.6<span class="material-symbols-outlined" id="icon-little">star</span></p>
-                    </div>
+
+                <div class="home-card-infos">
+                    <ul class="horizontal-space-between">
+                        <li><h2 class="txt-color-whtie txt-bold">Niagara Falls, </h2></li>
+                        <li class="horizontal-item"><p>412</p><span class="material-symbols-outlined txt-color-normal" id="icon-little">visibility</span></li>
+                    </ul>
+                    <ul class="horizontal-space-between">
+                        <li>Ontario, Canada</li>
+                        <li class="horizontal-item"><p>4.5</p><span class="material-symbols-outlined txt-color-normal" id="icon-little">star</span></li>
+                    </ul>
                 </div>
             </a>
-            <a href="card.html" class="card">
-                <img src="img/pexels-quang-nguyen-vinh-222549-2132126.jpg" alt="" class="card-background">
-                <div class="container-favorite">
-                    <div class="favorite">
-                        <span class="material-symbols-outlined">favorite</span>
-                    </div>
+            
+            <a href="card.html" class="home-card">
+                <img src="img/pexels-lukas-rodriguez-1845331-3680219.jpg" alt="" class="home-card-background">
+
+                <div class="horizontal-flex-end">
+                    <span class="material-symbols-outlined padding-primary txt-color-normal">favorite</span>
                 </div>
-                <div class="info">
-                    <div>
-                        <p><span class="txt-color-whtie txt-bold">Santorini, </span></p>
-                        <p>307<span class="material-symbols-outlined" id="icon-little">visibility</span></p>
-                    </div>
-                    <div>
-                        <p>Santorini, Greece</p>
-                        <p>4.9<span class="material-symbols-outlined" id="icon-little">star</span></p>
-                    </div>
+
+                <div class="home-card-infos">
+                    <ul class="horizontal-space-between">
+                        <li><h2 class="txt-color-whtie txt-bold">Machu Picchu, </h2></li>
+                        <li class="horizontal-item"><p>356</p><span class="material-symbols-outlined txt-color-normal" id="icon-little">visibility</span></li>
+                    </ul>
+                    <ul class="horizontal-space-between">
+                        <li>Cusco Region, Peru</li>
+                        <li class="horizontal-item"><p>4.8</p><span class="material-symbols-outlined txt-color-normal" id="icon-little">star</span></li>
+                    </ul>
                 </div>
             </a>
+            
+            <a href="card.html" class="home-card">
+                <img src="img/pexels-ollivves-1122413.jpg" alt="" class="home-card-background">
+                <div class="horizontal-flex-end">
+                    <span class="material-symbols-outlined padding-primary txt-color-normal">favorite</span>
+                </div>
+                <div class="home-card-infos">
+                    <ul class="horizontal-space-between">
+                        <li><h2 class="txt-color-whtie txt-bold">Great Wall, </h2></li>
+                        <li class="horizontal-item"><p>328</p><span class="material-symbols-outlined txt-color-normal" id="icon-little">visibility</span></li>
+                    </ul>
+                    <ul class="horizontal-space-between">
+                        <li>Beijing, China</li>
+                        <li class="horizontal-item"><p>4.6</p><span class="material-symbols-outlined txt-color-normal" id="icon-little">star</span></li>
+                    </ul>
+                </div>
+            </a>
+            
+            <a href="card.html" class="home-card">
+                <img src="img/pexels-quang-nguyen-vinh-222549-2132126.jpg" alt="" class="home-card-background">
+
+                <div class="horizontal-flex-end">
+                    <span class="material-symbols-outlined padding-primary txt-color-normal">favorite</span>
+                </div>
+                <div class="home-card-infos">
+                    <ul class="horizontal-space-between">
+                        <li><h2 class="txt-color-whtie txt-bold">Santorini, </h2></li>
+                        <li class="horizontal-item"><p>307</p><span class="material-symbols-outlined txt-color-normal" id="icon-little">visibility</span></li>
+                    </ul>
+                    <ul class="horizontal-space-between">
+                        <li>Santorini, Greece</li>
+                        <li class="horizontal-item"><p>4.9</p><span class="material-symbols-outlined txt-color-normal" id="icon-little">star</span></li>
+                    </ul>
+                </div>
+            </a>            
         </section>
-        
-    
-        
-    </div>
     
     <footer>
-        <a href="home.html"><span class="material-symbols-outlined icon-active icon-big">home</span></a>
-        <a href="friends.html"><span class="material-symbols-outlined icon-big">group</span></a>
-        <a href="events.html"><span class="material-symbols-outlined icon-big">today</span></a>
-        <a href="settings.html"><span class="material-symbols-outlined icon-big">settings</span></a>
+        <ul class="horizontal-space-between">
+            <li><a href="home.html"><span class="material-symbols-outlined">home</span></a></li>
+            <li><a href="friends.html"><span class="material-symbols-outlined">group</span></a></li>
+            <li><a href="events.html"><span class="material-symbols-outlined">today</span></a></li>
+            <li><a href="settings.html"><span class="material-symbols-outlined">settings</span></a></li>
+        </ul>
     </footer>
 </body>
 </html>
