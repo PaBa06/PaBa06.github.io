@@ -51,7 +51,7 @@ input::placeholder {
     --primary-color: #fff;
     --secondary-color: #DBDBDB;
     --contrast-color: #343434;
-    --contrast-color-transparent: rgba(66, 66, 66, 0.5);
+    --contrast-color-transparent: rgba(66, 66, 66, 0.8);
 
     --font-family: 'Arial', sans-serif;
 
@@ -191,15 +191,6 @@ input {
     flex: 1;
 }
 
-
-
-
-
-
-
-
-
-
 /*Home*/
 /*place-card*/
 .home-container-card {
@@ -233,15 +224,11 @@ input {
     padding: var(--primary-padding);
 }
 
-
-
-
-
-
-
-
-
-
+.icon-profile {
+    background-color: red;
+    width: 32px;
+    height: 32px;
+}
 
 /*Media Queries*/
 @media screen and (orientation: portrait) {

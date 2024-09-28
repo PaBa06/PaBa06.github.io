@@ -4,615 +4,340 @@
         "location": "Paris, France",
         "views": 632,
         "rating": 4.7,
-        "imgSrc": "img/pexels-alexazabache-3250362.jpg",
-        "distance": 400.6
+        "imgSrc": "https://images.pexels.com/photos/460740/pexels-photo-460740.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 400.6,
+        "description": "Der Eiffelturm, eines der bekanntesten Wahrzeichen der Welt, erhebt sich majestätisch über der Stadt der Lichter, Paris. Er wurde 1889 zur Weltausstellung errichtet und ist ein Meisterwerk aus Eisen, das von Gustave Eiffel entworfen wurde. Mit einer Höhe von 330 Metern bietet der Turm atemberaubende Aussichten auf die Pariser Skyline. Besonders beeindruckend sind die nächtlichen Lichtshows, die den Turm in ein funkelndes Spektakel verwandeln. Besucher können auf drei Ebenen anhalten, um entweder durch das gläserne Bodenfenster auf die Stadt zu blicken oder ein romantisches Abendessen im Restaurant zu genießen. Der Eiffelturm steht symbolisch für Eleganz, Ingenieurskunst und das Herzstück der französischen Hauptstadt.",
+        "id": "eiffel-tower_vbxfis",
+        "price": 898
     },
     {
         "title": "Grand Canyon",
         "location": "Arizona, USA",
         "views": 521,
         "rating": 4.9,
-        "imgSrc": "img/pexels-ekrulila-2127789.jpg",
-        "distance": 8925.7
+        "imgSrc": "https://images.pexels.com/photos/2542340/pexels-photo-2542340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 8925.7,
+        "description": "Der Grand Canyon, ein riesiges Naturwunder, das sich über fast 450 Kilometer durch den Norden Arizonas erstreckt, ist ein Zeugnis der geologischen Geschichte der Erde. Die rot-orangefarbenen Felswände sind über Millionen von Jahren durch den Colorado River geformt worden und enthüllen tiefe Erdschichten. Besucher erleben einen dramatischen Wechsel der Landschaften, von trockenen Wüstengebieten bis hin zu üppigen Waldregionen am Rand des Canyons. Die spektakulären Sonnenauf- und -untergänge tauchen die Schlucht in ein atemberaubendes Lichtspiel. Wanderwege, Rafting-Touren und Helikopterflüge bieten unvergessliche Erlebnisse in dieser überwältigenden Kulisse.",
+        "id": "grand-canyon_utxrda",
+        "price": 705
     },
     {
         "title": "Colosseum",
         "location": "Rome, Italy",
         "views": 478,
         "rating": 4.8,
-        "imgSrc": "img/pexels-freenwrld-1635086.jpg",
-        "distance": 693.3
+        "imgSrc": "https://images.pexels.com/photos/1844881/pexels-photo-1844881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 693.3,
+        "description": "Das Kolosseum ist das größte antike Amphitheater der Welt und eine der bedeutendsten archäologischen Stätten Italiens. Es wurde im Jahr 80 n. Chr. fertiggestellt und diente als Schauplatz für Gladiatorenkämpfe und spektakuläre öffentliche Veranstaltungen. Mit einer Kapazität von bis zu 50.000 Zuschauern symbolisiert es das immense architektonische Können des Römischen Reichs. Heute ist es eine gut erhaltene Ruine, die jährlich Millionen von Besuchern anzieht, die mehr über das antike Rom und seine Geschichte erfahren wollen. Das Kolosseum steht mitten im historischen Zentrum von Rom und erinnert an die epische Vergangenheit der 'Ewigen Stadt'.",
+        "id": "colosseum_3fjx83",
+        "price": 338
     },
     {
         "title": "Niagara Falls",
         "location": "Ontario, Canada",
         "views": 412,
         "rating": 4.5,
-        "imgSrc": "img/pexels-josh-hild-1270765-3859774.jpg",
-        "distance": 6421.8
+        "imgSrc": "https://images.pexels.com/photos/3490963/pexels-photo-3490963.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 6421.8,
+        "description": "Die Niagara-Fälle, eine Gruppe von drei beeindruckenden Wasserfällen an der Grenze zwischen den USA und Kanada, gehören zu den berühmtesten Naturwundern der Welt. Die Wasserfälle, bestehend aus den Horseshoe Falls, den American Falls und den Bridal Veil Falls, stürzen gigantische Wassermassen in die Tiefe und erzeugen eine donnernde Klangkulisse. Besucher können die Fälle aus nächster Nähe auf speziellen Bootstouren erleben oder von Aussichtspunkten aus den Regenbogen bestaunen, der oft über den herabstürzenden Wassermassen erscheint. Die Fälle sind nicht nur ein beliebtes Touristenziel, sondern auch eine wichtige Quelle für Wasserkraft.",
+        "id": "niagara-falls_3th3x5",
+        "price": 365
     },
     {
         "title": "Machu Picchu",
         "location": "Cusco Region, Peru",
         "views": 356,
         "rating": 4.8,
-        "imgSrc": "img/pexels-lukas-rodriguez-1845331-3680219.jpg",
-        "distance": 10210.0
+        "imgSrc": "https://images.pexels.com/photos/3532326/pexels-photo-3532326.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 10210,
+        "description": "Hoch in den Anden gelegen, ist Machu Picchu eine der beeindruckendsten archäologischen Stätten der Welt und ein heiliger Ort der Inka-Zivilisation. Die gut erhaltene Stadt, die im 15. Jahrhundert erbaut wurde, thront auf einer Höhe von 2.430 Metern über dem Meeresspiegel und ist umgeben von dichtem Dschungel und steilen Berghängen. Die geheimnisvolle Geschichte von Machu Picchu, das oft als 'Verlorene Stadt der Inka' bezeichnet wird, fasziniert Archäologen und Besucher gleichermaßen. Besucher können die terrassenförmigen Ruinen, Tempel und Paläste erkunden und einen atemberaubenden Blick auf das Umland genießen.",
+        "id": "machu-picchu_heojxl",
+        "price": 686
     },
     {
         "title": "Great Wall",
         "location": "Beijing, China",
         "views": 328,
         "rating": 4.6,
-        "imgSrc": "img/pexels-ollivves-1122413.jpg",
-        "distance": 8071.1
+        "imgSrc": "https://images.pexels.com/photos/10952316/pexels-photo-10952316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 8071.1,
+        "description": "Die Große Mauer von China ist eines der beeindruckendsten Bauwerke der Menschheitsgeschichte und erstreckt sich über 21.000 Kilometer durch das nördliche China. Sie wurde vor über 2.000 Jahren errichtet, um das Kaiserreich vor Invasionen zu schützen, und besteht aus verschiedenen Abschnitten aus Stein, Ziegeln und Erde. Die bekanntesten Teile befinden sich in der Nähe von Peking und bieten atemberaubende Ausblicke auf die umliegende Landschaft. Wanderungen entlang der Großen Mauer führen durch steile Gebirgspässe und historische Wachtürme, die ein Zeugnis der alten chinesischen Zivilisation und Ingenieurskunst sind.",
+        "id": "great-wall_tktkma",
+        "price": 398
     },
     {
         "title": "Santorini",
         "location": "Santorini, Greece",
         "views": 307,
         "rating": 4.9,
-        "imgSrc": "img/pexels-quang-nguyen-vinh-222549-2132126.jpg",
-        "distance": 1591.3
+        "imgSrc": "https://images.pexels.com/photos/3264723/pexels-photo-3264723.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 1591.3,
+        "description": "Santorini, eine malerische griechische Insel in der Ägäis, ist bekannt für ihre weißen, kubischen Häuser mit blauen Kuppeln, die auf den Klippen der Caldera thronen. Diese dramatische Landschaft entstand durch einen Vulkanausbruch, der das Zentrum der Insel einstürzte und eine einzigartige Bucht formte. Die Sonnenuntergänge in Oia, einem der charmantesten Dörfer der Insel, sind weltberühmt und ziehen Romantiker und Fotografen aus aller Welt an. Die Mischung aus traditioneller griechischer Architektur, kristallklarem Wasser und beeindruckender Geschichte macht Santorini zu einem der schönsten Reiseziele Europas.",
+        "id": "santorini_3dqoah",
+        "price": 741
     },
     {
         "title": "Statue of Liberty",
         "location": "New York, USA",
         "views": 845,
         "rating": 4.8,
-        "imgSrc": "img/pexels-alexazabache-3250362.jpg",
-        "distance": 6225.9
+        "imgSrc": "https://images.pexels.com/photos/69205/pexels-photo-69205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 6225.9,
+        "description": "Die Freiheitsstatue, ein Symbol der Freiheit und Demokratie, steht auf Liberty Island im Hafen von New York. Sie wurde 1886 als Geschenk Frankreichs an die Vereinigten Staaten übergeben und ist seitdem ein ikonisches Wahrzeichen für Einwanderer und Touristen. Die 93 Meter hohe Kupferstatue, die eine Fackel und eine Tafel mit dem Datum der Unabhängigkeitserklärung trägt, begrüßt jährlich Millionen von Besuchern. Von der Krone aus bietet sich ein beeindruckender Blick auf die Skyline von Manhattan und die umliegenden Gewässer. Die Freiheitsstatue ist nicht nur ein nationales Monument, sondern auch ein globales Symbol der Hoffnung und Gerechtigkeit.",
+        "id": "statue-of-liberty_3hrnei",
+        "price": 845
     },
     {
         "title": "Sydney Opera House",
         "location": "Sydney, Australia",
         "views": 784,
         "rating": 4.7,
-        "imgSrc": "img/pexels-ekrulila-2127789.jpg",
-        "distance": 16689.4
+        "imgSrc": "https://images.pexels.com/photos/20642054/pexels-photo-20642054/free-photo-of-sydney-opera-house-und-harbour-bridge.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 16689.4,
+        "description": "Das Sydney Opera House ist ein architektonisches Meisterwerk und eines der markantesten Gebäude der Welt. Es liegt am Hafen von Sydney und beeindruckt mit seinen weißen, muschelförmigen Dächern, die sich elegant gegen den blauen Himmel und das Wasser abheben. Eröffnet 1973, ist das Opernhaus heute ein kulturelles Zentrum, das eine Vielzahl von Opern, Theateraufführungen und Konzerten beherbergt. Umgeben von der Sydney Harbour Bridge und dem Royal Botanic Garden bietet das Opernhaus sowohl von Land als auch vom Wasser aus ein unvergleichliches Fotomotiv. Der Besuch dieses modernen Weltwunders ist ein Muss für jeden Sydney-Besucher.",
+        "id": "sydney-opera-house_kclpdn",
+        "price": 622
     },
     {
         "title": "Mount Fuji",
         "location": "Honshu, Japan",
         "views": 726,
         "rating": 4.9,
-        "imgSrc": "img/pexels-freenwrld-1635086.jpg",
-        "distance": 9740.2
+        "imgSrc": "https://images.pexels.com/photos/3408353/pexels-photo-3408353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 9740.2,
+        "description": "Der Mount Fuji, Japans höchster und berühmtester Berg, ist ein majestätischer Vulkan, der sich 3.776 Meter über der Insel Honshu erhebt. Er gilt als heiliger Ort und ist ein zentrales Symbol in der japanischen Kunst und Kultur. Der perfekt symmetrische Kegel ist oft mit Schnee bedeckt und bietet Wanderern, die im Sommer den Aufstieg wagen, eine unvergessliche Aussicht. An klaren Tagen spiegelt sich der Berg im nahegelegenen Kawaguchi-See und bietet ein atemberaubendes Panorama. Ob als Wanderziel oder als ruhige Inspiration in der Natur, der Fuji zieht jedes Jahr Millionen von Menschen an.",
+        "id": "mount-fuji_gtjy5l",
+        "price": 481
     },
     {
         "title": "Christ the Redeemer",
         "location": "Rio de Janeiro, Brazil",
         "views": 689,
         "rating": 4.8,
-        "imgSrc": "img/pexels-josh-hild-1270765-3859774.jpg",
-        "distance": 9410.7
+        "imgSrc": "https://images.pexels.com/photos/6580703/pexels-photo-6580703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 9410.7,
+        "description": "Die Christus-Erlöser-Statue, die auf dem Corcovado-Berg über Rio de Janeiro thront, ist ein weltweit anerkanntes Symbol des Christentums und Brasiliens. Die 30 Meter hohe Statue mit ausgestreckten Armen überblickt die Stadt und bietet eine spektakuläre Aussicht auf die Strände, den Zuckerhut und den Atlantischen Ozean. Die Statue wurde 1931 eingeweiht und besteht aus Stahlbeton und Speckstein. Sie zieht jährlich Millionen von Touristen an, die die atemberaubende Aussicht und das spirituelle Ambiente genießen. Der Besuch dieser Ikone ist ein Höhepunkt für jeden Reisenden in Brasilien.",
+        "id": "christ-the-redeemer_a2cfz5",
+        "price": 157
     },
     {
         "title": "Petra",
         "location": "Ma'an, Jordan",
         "views": 672,
         "rating": 4.9,
-        "imgSrc": "img/pexels-lukas-rodriguez-1845331-3680219.jpg",
-        "distance": 3038.9
+        "imgSrc": "https://images.pexels.com/photos/15449777/pexels-photo-15449777/free-photo-of-liegendes-kamel-in-der-nahe-des-eingangs-zur-schatzkammer-in-petra.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 3038.9,
+        "description": "Petra, die in die Felsen gehauene antike Stadt in Jordanien, ist eine der faszinierendsten archäologischen Stätten der Welt. Die Stadt war einst die Hauptstadt des nabatäischen Königreichs und liegt versteckt in einem Tal, das nur durch den schmalen Siq, eine lange Schlucht, erreichbar ist. Besucher sind oft überwältigt von der Schönheit der Schatzkammer, einem in Sandstein gemeißelten Tempel, der am Ende des Siq auftaucht. Petra ist ein UNESCO-Weltkulturerbe und bietet eine einzigartige Mischung aus Naturwundern und menschlicher Ingenieurskunst, die seit Jahrtausenden die Menschheit inspiriert.",
+        "id": "petra_5rq2nm",
+        "price": 548
     },
     {
         "title": "Stonehenge",
         "location": "Wiltshire, England",
         "views": 655,
         "rating": 4.6,
-        "imgSrc": "img/pexels-ollivves-1122413.jpg",
-        "distance": 797.7
+        "imgSrc": "https://images.pexels.com/photos/13020651/pexels-photo-13020651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 797.7,
+        "description": "Stonehenge, ein prähistorisches Monument in der englischen Grafschaft Wiltshire, ist eines der bekanntesten Wahrzeichen Großbritanniens. Es besteht aus einem Kreis massiver Steine, die vor über 4.000 Jahren von unseren Vorfahren errichtet wurden. Bis heute ist der genaue Zweck von Stonehenge ein Rätsel, aber es wird vermutet, dass es als Begräbnisstätte oder für religiöse Rituale genutzt wurde. Besucher sind fasziniert von der mystischen Atmosphäre dieses UNESCO-Weltkulturerbes, insbesondere bei Sonnenaufgang und Sonnenuntergang, wenn die Sonnenstrahlen die Steine in ein goldenes Licht tauchen.",
+        "id": "stonehenge_a1dggo",
+        "price": 1085
     },
     {
         "title": "Mount Kilimanjaro",
         "location": "Kilimanjaro, Tanzania",
         "views": 637,
         "rating": 4.8,
-        "imgSrc": "img/pexels-quang-nguyen-vinh-222549-2132126.jpg",
-        "distance": 6210.0
+        "imgSrc": "https://images.pexels.com/photos/7463697/pexels-photo-7463697.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 6210,
+        "description": "Der Kilimandscharo ist der höchste freistehende Berg der Welt und erhebt sich majestätisch über die afrikanische Savanne in Tansania. Mit seiner Höhe von 5.895 Metern zieht er Bergsteiger aus aller Welt an, die die Herausforderung suchen, seinen schneebedeckten Gipfel zu erklimmen. Der Aufstieg auf den Kilimandscharo führt durch unterschiedliche Klimazonen, von dichten Regenwäldern bis hin zu kargen alpinen Wüsten. Auf dem Gipfel erwartet die Wanderer ein atemberaubender Blick auf die endlosen Ebenen Afrikas. Der Kilimandscharo ist nicht nur ein Ziel für Abenteurer, sondern auch ein Symbol für die Schönheit und Vielfalt der Natur.",
+        "id": "mount-kilimanjaro_js0tym",
+        "price": 83
     },
     {
         "title": "Taj Mahal",
         "location": "Agra, India",
         "views": 622,
         "rating": 4.9,
-        "imgSrc": "img/pexels-alexazabache-3250362.jpg",
-        "distance": 6138.3
+        "imgSrc": "https://images.pexels.com/photos/5458393/pexels-photo-5458393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 6138.3,
+        "description": "Der Taj Mahal ist eines der berühmtesten Bauwerke der Welt und ein Symbol der ewigen Liebe. Dieses beeindruckende Mausoleum in Agra, Indien, wurde im 17. Jahrhundert vom Mogulkaiser Shah Jahan für seine geliebte Frau Mumtaz Mahal erbaut. Das Gebäude besteht aus strahlend weißem Marmor und ist mit kunstvollen Verzierungen, Kalligraphien und Edelsteinen geschmückt. Die Perfektion seiner Symmetrie und das Spiel des Lichts auf der Oberfläche des Taj Mahal bei Sonnenauf- und -untergang machen es zu einem wahren architektonischen Meisterwerk. Der Taj Mahal zählt zu den sieben Weltwundern und ist ein Muss für jeden Indienreisenden.",
+        "id": "taj-mahal_a1ruxa",
+        "price": 668
     },
     {
         "title": "Banff National Park",
         "location": "Alberta, Canada",
         "views": 609,
         "rating": 4.8,
-        "imgSrc": "img/pexels-ekrulila-2127789.jpg",
-        "distance": 7706.6
+        "imgSrc": "https://images.pexels.com/photos/3794940/pexels-photo-3794940.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 7706.6,
+        "description": "Der Banff National Park ist Kanadas ältester Nationalpark und ein Paradies für Naturliebhaber und Abenteurer. Gelegen in den majestätischen Rocky Mountains von Alberta, besticht der Park durch seine kristallklaren Seen, dichten Wälder und schneebedeckten Gipfel. Der berühmte Lake Louise, mit seinem türkisfarbenen Wasser, zieht Besucher aus aller Welt an. Im Sommer laden zahlreiche Wanderwege zu Erkundungen ein, während im Winter die Region ein beliebtes Ziel für Skifahrer ist. Die reiche Tierwelt des Parks, darunter Elche, Grizzlybären und Wölfe, macht Banff zu einem unvergesslichen Naturerlebnis.",
+        "id": "banff-national-park_gt12qi",
+        "price": 109
     },
     {
         "title": "Pyramids of Giza",
         "location": "Giza, Egypt",
         "views": 592,
         "rating": 4.7,
-        "imgSrc": "img/pexels-freenwrld-1635086.jpg",
-        "distance": 2786.4
-    },
-    {
-        "title": "Galapagos Islands",
-        "location": "Galapagos, Ecuador",
-        "views": 578,
-        "rating": 4.9,
-        "imgSrc": "img/pexels-josh-hild-1270765-3859774.jpg",
-        "distance": 10225.5
+        "imgSrc": "https://images.pexels.com/photos/10928747/pexels-photo-10928747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 2786.4,
+        "description": "Die Pyramiden von Gizeh, eine der größten archäologischen Stätten der Welt, sind Zeugen der außergewöhnlichen Ingenieurskunst der alten Ägypter. Die Pyramiden, die vor über 4.500 Jahren errichtet wurden, dienten als Grabstätten für die Pharaonen und sind bis heute die einzigen erhaltenen Wunder der Antike. Die größte von ihnen, die Pyramide des Cheops, erhebt sich fast 140 Meter in die Höhe. Zusammen mit der geheimnisvollen Sphinx und den Tempeln bieten die Pyramiden einen faszinierenden Einblick in das Leben und die Religion des alten Ägyptens. Besucher sind von der Größe und Präzision dieser Bauwerke tief beeindruckt.",
+        "id": "pyramids-of-giza_3sr14k",
+        "price": 665
     },
     {
         "title": "Mount Everest",
         "location": "Himalayas, Nepal",
         "views": 562,
         "rating": 4.8,
-        "imgSrc": "img/pexels-lukas-rodriguez-1845331-3680219.jpg",
-        "distance": 6477.3
+        "imgSrc": "https://images.pexels.com/photos/3408353/pexels-photo-3408353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 6477.3,
+        "description": "Der Mount Everest, der höchste Berg der Welt, ist ein Sehnsuchtsziel für Bergsteiger und Abenteurer aus aller Welt. Mit seinen 8.848 Metern erhebt sich der Everest über das Himalaya-Gebirge und zieht jährlich zahlreiche Expeditionen an. Der Aufstieg auf den Gipfel ist extrem anspruchsvoll und erfordert monatelange Vorbereitung und Entschlossenheit. Der Weg führt durch eisige Gletscher, tiefe Schluchten und gefährliche Wetterbedingungen. Trotz der Herausforderungen wird der Everest von vielen als ultimativer Test für körperliche und geistige Ausdauer angesehen. Die Aussicht vom Gipfel, die die Welt zu Füßen legt, ist atemberaubend.",
+        "id": "mount-everest_o3jrod",
+        "price": 976
     },
     {
         "title": "Sagrada Familia",
         "location": "Barcelona, Spain",
         "views": 548,
         "rating": 4.6,
-        "imgSrc": "img/pexels-ollivves-1122413.jpg",
-        "distance": 746.5
+        "imgSrc": "https://images.pexels.com/photos/819764/pexels-photo-819764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 746.5,
+        "description": "Die Sagrada Familia ist das bekannteste Werk des spanischen Architekten Antoni Gaudí und eines der faszinierendsten Gebäude der Welt. Diese Basilika in Barcelona wurde 1882 begonnen und ist bis heute unvollendet. Ihre ungewöhnliche, organisch wirkende Architektur und die aufwendigen Fassaden, die biblische Szenen darstellen, machen sie zu einem einzigartigen Kunstwerk. Im Inneren wird die Kathedrale von farbenprächtigen Glasfenstern erleuchtet, die das Licht auf wundersame Weise brechen. Besucher sind von der Größe und den Details dieses Bauwerks beeindruckt, das eines Tages das höchste Kirchengebäude der Welt sein wird.",
+        "id": "sagrada-familia_q0mspl",
+        "price": 953
     },
     {
         "title": "Angkor Wat",
         "location": "Siem Reap, Cambodia",
         "views": 532,
         "rating": 4.9,
-        "imgSrc": "img/pexels-quang-nguyen-vinh-222549-2132126.jpg",
-        "distance": 9547.9
-    },
-    {
-        "title": "Blue Lagoon",
-        "location": "Grindavík, Iceland",
-        "views": 521,
-        "rating": 4.7,
-        "imgSrc": "img/pexels-alexazabache-3250362.jpg",
-        "distance": 2632.2
+        "imgSrc": "https://images.pexels.com/photos/19217347/pexels-photo-19217347/free-photo-of-angkorwat-monch-mit-teichspiegelung.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 9547.9,
+        "description": "Angkor Wat ist das größte religiöse Monument der Welt und eines der bedeutendsten archäologischen Stätten. Ursprünglich als Hindu-Tempel im 12. Jahrhundert erbaut, wurde es später zu einem buddhistischen Heiligtum. Die Tempelanlage inmitten des Dschungels von Kambodscha besticht durch ihre aufwendigen Reliefs und kunstvollen Schnitzereien, die Szenen aus der hinduistischen Mythologie zeigen. Angkor Wat ist besonders bei Sonnenaufgang und Sonnenuntergang ein magischer Anblick, wenn sich die Silhouette des Tempels im Wasser der umliegenden Teiche spiegelt. Die Schönheit und Erhabenheit dieses Ortes ziehen jährlich Millionen von Besuchern an.",
+        "id": "angkor-wat_86cboh",
+        "price": 964
     },
     {
         "title": "Uluru",
         "location": "Northern Territory, Australia",
         "views": 512,
         "rating": 4.8,
-        "imgSrc": "img/pexels-ekrulila-2127789.jpg",
-        "distance": 15542.1
+        "imgSrc": "https://images.pexels.com/photos/10844273/pexels-photo-10844273.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 15542.1,
+        "description": "Uluru, auch bekannt als Ayers Rock, ist ein riesiger Sandsteinmonolith in der Wüste des Northern Territory in Australien. Dieses heilige Symbol der Aborigines erhebt sich majestätisch 348 Meter über die umliegende Ebene und verändert seine Farbe je nach Tageszeit, von leuchtendem Rot bis zu tiefem Violett. Uluru ist nicht nur wegen seiner Schönheit, sondern auch wegen seiner spirituellen Bedeutung ein besonderer Ort. Für die Anangu, das indigene Volk der Region, ist Uluru ein heiliger Ort voller Mythen und Legenden. Besucher können um den Monolithen wandern und die faszinierenden Felsmalereien und heiligen Stätten entdecken.",
+        "id": "uluru_eu3yb1",
+        "price": 563
     },
     {
         "title": "Buckingham Palace",
         "location": "London, England",
         "views": 498,
         "rating": 4.7,
-        "imgSrc": "img/pexels-freenwrld-1635086.jpg",
-        "distance": 757.7
+        "imgSrc": "https://images.pexels.com/photos/14702021/pexels-photo-14702021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 757.7,
+        "description": "Der Buckingham Palace ist die offizielle Residenz der britischen Monarchen und eines der berühmtesten Gebäude Londons. Er wurde im frühen 18. Jahrhundert erbaut und ist heute ein Symbol der britischen Monarchie. Der Palast ist bekannt für die tägliche Wachablösung, die Touristen aus aller Welt anzieht. Die Innenräume sind prachtvoll gestaltet, und in den Sommermonaten können Besucher einige der königlichen Gemächer besichtigen. Der Palace ist auch ein Veranstaltungsort für Staatsbesuche und feierliche Anlässe, was seine Bedeutung in der britischen Geschichte unterstreicht.",
+        "id": "buckingham-palace_cnuq53",
+        "price": 584
     },
     {
         "title": "Versailles Palace",
         "location": "Versailles, France",
         "views": 489,
         "rating": 4.6,
-        "imgSrc": "img/pexels-josh-hild-1270765-3859774.jpg",
-        "distance": 404.9
-    },
-    {
-        "title": "Alhambra",
-        "location": "Granada, Spain",
-        "views": 473,
-        "rating": 4.9,
-        "imgSrc": "img/pexels-lukas-rodriguez-1845331-3680219.jpg",
-        "distance": 1372.5
-    },
-    {
-        "title": "Forbidden City",
-        "location": "Beijing, China",
-        "views": 462,
-        "rating": 4.7,
-        "imgSrc": "img/pexels-ollivves-1122413.jpg",
-        "distance": 8071.1
-    },
-    {
-        "title": "Eiserner Steg",
-        "location": "Frankfurt, Deutschland",
-        "views": 6351,
-        "rating": 4.5,
-        "imgSrc": "img/pexels-alex-zhernovyi-2036204-3822486.jpg",
-        "distance": 481.2
+        "imgSrc": "https://images.pexels.com/photos/19778687/pexels-photo-19778687/free-photo-of-luftaufnahme-der-garten-des-schlosses-versailles-paris-frankreich.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 404.9,
+        "description": "Der Palast von Versailles, einst die Residenz des französischen Königs Ludwig XIV., ist ein beeindruckendes Beispiel für die Pracht und den Überfluss der französischen Monarchie. Der Palast ist für seine kunstvollen Gärten, den Spiegelsaal und die reich verzierten Innenräume bekannt. Einst ein Symbol der absoluten Macht, ist Versailles heute ein UNESCO-Weltkulturerbe und eines der meistbesuchten Monumente Frankreichs. Besonders die weitläufigen Gärten, mit ihren Brunnen und Skulpturen, bieten ein unvergessliches Erlebnis für Besucher.",
+        "id": "versailles-palace_c1o06l",
+        "price": 798
     },
     {
         "title": "Zytglogge",
         "location": "Bern, Schweiz",
         "views": 542,
         "rating": 4.8,
-        "imgSrc": "img/pexels-frans-van-heerden-201846-723180.jpg",
-        "distance": 30.0
-    },
-    {
-        "title": "Château de Chambord",
-        "location": "Loir-et-Cher, Frankreich",
-        "views": 450,
-        "rating": 4.7,
-        "imgSrc": "img/pexels-lukas-rodriguez-1845331-3680219.jpg",
-        "distance": 780.5
-    },
-    {
-        "title": "Schwarzsee",
-        "location": "Küsnacht, Schweiz",
-        "views": 320,
-        "rating": 4.6,
-        "imgSrc": "img/pexels-ollivves-1122413.jpg",
-        "distance": 50.2
+        "imgSrc": "https://images.pexels.com/photos/14000407/pexels-photo-14000407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 30,
+        "description": "Der Zytglogge ist ein berühmter Uhrturm im Herzen von Bern und eines der markantesten Wahrzeichen der Stadt. Ursprünglich als Tor der Stadtmauer erbaut, wurde er später in einen Uhrturm umgewandelt. Besonders beeindruckend ist das astronomische Zifferblatt, das neben der Zeit auch Mondphasen und den Tierkreis anzeigt. Touristen und Einheimische versammeln sich täglich, um das stündliche Glockenspiel mit den mechanischen Figuren zu bestaunen. Der Zytglogge ist ein Symbol für Bern und ein beliebtes Ziel für Besucher, die mehr über die Geschichte und Kultur der Stadt erfahren möchten.",
+        "id": "zytglogge_9bjyr0",
+        "price": 946
     },
     {
         "title": "Brandenburg Gate",
         "location": "Berlin, Deutschland",
         "views": 900,
         "rating": 4.8,
-        "imgSrc": "img/pexels-alexazabache-3214975.jpg",
-        "distance": 580.3
+        "imgSrc": "https://images.pexels.com/photos/20495105/pexels-photo-20495105/free-photo-of-sonnenuntergang-wahrzeichen-sonnenaufgang-reise.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 580.3,
+        "description": "Das Brandenburger Tor ist eines der bekanntesten Wahrzeichen Berlins und symbolisiert die deutsche Einheit. Es wurde im späten 18. Jahrhundert erbaut und diente ursprünglich als Stadttor. Während des Kalten Krieges stand das Brandenburger Tor direkt an der Berliner Mauer und wurde zum Symbol der Teilung Deutschlands. Nach dem Fall der Mauer 1989 wurde es zu einem Symbol für den Frieden und die Wiedervereinigung. Heute ist es ein beliebter Treffpunkt für Touristen und Einheimische und eine der meistfotografierten Sehenswürdigkeiten der Stadt.",
+        "id": "brandenburg-gate_7fo7ai",
+        "price": 1105
     },
     {
         "title": "Neuschwanstein Castle",
         "location": "Bayern, Deutschland",
         "views": 1200,
         "rating": 4.7,
-        "imgSrc": "img/pexels-ashleyelena-705782.jpg",
-        "distance": 800.8
+        "imgSrc": "https://images.pexels.com/photos/28617300/pexels-photo-28617300/free-photo-of-malerische-aussicht-auf-schloss-neuschwanstein-in-bayern.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 800.8,
+        "description": "Schloss Neuschwanstein, das Märchenschloss von König Ludwig II. von Bayern, ist eine der bekanntesten Sehenswürdigkeiten Deutschlands. Es wurde im 19. Jahrhundert auf einem Hügel über der malerischen Landschaft Bayerns erbaut und diente als Inspiration für viele romantische Erzählungen und sogar für Disney-Schlösser. Die Architektur des Schlosses kombiniert mittelalterliche und byzantinische Stilelemente und ist innen wie außen eine Augenweide. Besucher aus aller Welt kommen, um die Prunkräume und die traumhafte Aussicht auf die umliegenden Berge zu bewundern.",
+        "id": "neuschwanstein-castle_wsoqro",
+        "price": 334
     },
     {
         "title": "Matterhorn",
         "location": "Zermatt, Schweiz",
         "views": 1530,
         "rating": 4.9,
-        "imgSrc": "img/pexels-martinpechy-1028225.jpg",
-        "distance": 150.0
+        "imgSrc": "https://images.pexels.com/photos/21938815/pexels-photo-21938815/free-photo-of-matterhorn-blick-vom-wanderweg-in-zermatt.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 150,
+        "description": "Das Matterhorn, einer der bekanntesten Berge der Welt, erhebt sich majestätisch an der Grenze zwischen der Schweiz und Italien. Mit seiner ikonischen, pyramidenförmigen Spitze ist es ein Paradies für Bergsteiger und Wanderer. Das Matterhorn ist berüchtigt für seine anspruchsvollen Kletterrouten, aber auch für die atemberaubende Aussicht, die Besucher von der Umgebung genießen können. Im Winter verwandelt sich die Region Zermatt in ein beliebtes Skigebiet, während im Sommer Wanderwege und Bergbahnen zahlreiche Touristen anziehen.",
+        "id": "matterhorn_n1jf25",
+        "price": 1008
     },
     {
         "title": "Eiger",
         "location": "Grindelwald, Schweiz",
         "views": 820,
         "rating": 4.8,
-        "imgSrc": "img/pexels-kasuma-1785493.jpg",
-        "distance": 175.3
+        "imgSrc": "https://images.pexels.com/photos/13749474/pexels-photo-13749474.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 175.3,
+        "description": "Der Eiger ist einer der berühmtesten Gipfel in den Schweizer Alpen und bekannt für seine steile Nordwand, die als eine der schwierigsten und gefährlichsten Kletterrouten der Welt gilt. Der Berg erhebt sich über das malerische Dorf Grindelwald und ist ein Magnet für Abenteurer und Naturliebhaber. Im Sommer locken zahlreiche Wanderwege und Kletterrouten, während im Winter Skifahrer und Snowboarder die Region bevölkern. Die Aussicht auf den Eiger, insbesondere bei Sonnenaufgang, ist ein unvergessliches Erlebnis.",
+        "id": "eiger_sjq65q",
+        "price": 992
     },
     {
         "title": "Vatican City",
         "location": "Rom, Italien",
         "views": 2100,
         "rating": 4.9,
-        "imgSrc": "img/pexels-rickyrecap-1586298.jpg",
-        "distance": 120.0
+        "imgSrc": "https://images.pexels.com/photos/974991/pexels-photo-974991.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 1004,
+        "description": "Der Vatikan, der kleinste unabhängige Staat der Welt, ist das Zentrum der katholischen Kirche und die Heimat des Papstes. Inmitten von Rom gelegen, beherbergt der Vatikan einige der bedeutendsten Kunstwerke und religiösen Stätten der Welt, darunter den Petersdom, die Sixtinische Kapelle und die Vatikanischen Museen. Millionen von Pilgern und Touristen besuchen jährlich diesen heiligen Ort, um die Kunstschätze zu bewundern und die spirituelle Atmosphäre zu erleben. Besonders beeindruckend ist der Petersplatz, auf dem große religiöse Zeremonien stattfinden.",
+        "id": "vatican-city_bawl89",
+        "price": 631
     },
     {
         "title": "Siena Cathedral",
         "location": "Siena, Italien",
         "views": 750,
         "rating": 4.6,
-        "imgSrc": "img/pexels-tobiasbjorkli-1853354.jpg",
-        "distance": 610.0
+        "imgSrc": "https://images.pexels.com/photos/4011802/pexels-photo-4011802.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 610,
+        "description": "Die Kathedrale von Siena, auch bekannt als Duomo di Siena, ist ein Meisterwerk der italienischen Gotik und eines der beeindruckendsten Bauwerke des Landes. Mit ihrer markanten schwarz-weißen Marmorfassade und den kunstvollen Innenräumen zieht sie jedes Jahr Millionen von Besuchern an. Der Innenraum beherbergt zahlreiche Kunstwerke von berühmten Künstlern, darunter Michelangelo und Donatello. Die Kathedrale ist auch bekannt für ihren prächtigen Fußboden, der mit aufwendigen Mosaiken verziert ist. Das Bauwerk spiegelt die reiche Geschichte und den künstlerischen Einfluss der Stadt Siena wider.",
+        "id": "siena-cathedral_lghnz3",
+        "price": 717
     },
     {
         "title": "Cologne Cathedral",
         "location": "Köln, Deutschland",
         "views": 1900,
         "rating": 4.7,
-        "imgSrc": "img/pexels-rene-boehlen-361077-1203017.jpg",
-        "distance": 600.4
-    },
-    {
-        "title": "Hohenzollern Castle",
-        "location": "Baden-Württemberg, Deutschland",
-        "views": 700,
-        "rating": 4.5,
-        "imgSrc": "img/pexels-ninetysevenyears-28528632.jpg",
-        "distance": 300.6
-    },
-    {
-        "title": "Luzern Kapellbrücke",
-        "location": "Luzern, Schweiz",
-        "views": 1320,
-        "rating": 4.8,
-        "imgSrc": "img/pexels-roman-jaquez-948741-2406772.jpg",
-        "distance": 200.7
-    },
-    {
-        "title": "Brügge Stadtplatz",
-        "location": "Brügge, Belgien",
-        "views": 900,
-        "rating": 4.7,
-        "imgSrc": "img/pexels-alexazabache-3214969.jpg",
-        "distance": 640.0
-    },
-    {
-        "title": "Edinburgh Castle",
-        "location": "Edinburgh, Schottland",
-        "views": 1800,
-        "rating": 4.6,
-        "imgSrc": "img/pexels-jeffrey-czum-254391-2346216.jpg",
-        "distance": 1130.2
-    },
-    {
-        "title": "Alpenzoo",
-        "location": "Innsbruck, Österreich",
-        "views": 415,
-        "rating": 4.4,
-        "imgSrc": "img/pexels-daniel-lazarov-1357330-2762921.jpg",
-        "distance": 900.1
-    },
-    {
-        "title": "Gurten Park",
-        "location": "Bern, Schweiz",
-        "views": 500,
-        "rating": 4.5,
-        "imgSrc": "img/pexels-suissounet-2068479.jpg",
-        "distance": 40.3
-    },
-    {
-        "title": "Zürichsee",
-        "location": "Zürich, Schweiz",
-        "views": 1500,
-        "rating": 4.7,
-        "imgSrc": "img/pexels-lucas-veiga-reis-1152403-28544173.jpg",
-        "distance": 110.4
-    },
-    {
-        "title": "Schloss Neuschwanstein",
-        "location": "Bayern, Deutschland",
-        "views": 1300,
-        "rating": 4.9,
-        "imgSrc": "img/pexels-josh-hild-1270765-3859774.jpg",
-        "distance": 780.6
-    },
-    {
-        "title": "Torre di Pisa",
-        "location": "Pisa, Italien",
-        "views": 2000,
-        "rating": 4.7,
-        "imgSrc": "img/pexels-ekrulila-2127789.jpg",
-        "distance": 1300.8
-    },
-    {
-        "title": "Palace of Westminster",
-        "location": "London, England",
-        "views": 1800,
-        "rating": 4.6,
-        "imgSrc": "img/pexels-alexazabache-3250362.jpg",
-        "distance": 500.5
-    },
-    {
-        "title": "Mont Saint-Michel",
-        "location": "Frankreich",
-        "views": 2500,
-        "rating": 4.8,
-        "imgSrc": "img/pexels-margerretta-548077.jpg",
-        "distance": 620.9
-    },
-    {
-        "title": "Duomo di Milano",
-        "location": "Mailand, Italien",
-        "views": 2700,
-        "rating": 4.7,
-        "imgSrc": "img/pexels-roman-odintsov-4553618.jpg",
-        "distance": 1500.3
-    },
-    {
-        "title": "Petersdom",
-        "location": "Rom, Italien",
-        "views": 3200,
-        "rating": 4.9,
-        "imgSrc": "img/pexels-rickyrecap-1586298.jpg",
-        "distance": 150.0
-    },
-    {
-        "title": "Castel del Monte",
-        "location": "Apulien, Italien",
-        "views": 500,
-        "rating": 4.6,
-        "imgSrc": "img/pexels-alexazabache-3264723.jpg",
-        "distance": 1800.0
-    },
-    {
-        "title": "San Francisco De Asis Mission Church",
-        "location": "Taos, New Mexico, USA",
-        "views": 450,
-        "rating": 4.8,
-        "imgSrc": "img/pexels-lex-blais-2077098.jpg",
-        "distance": 5000.5
-    },
-    {
-        "title": "Canal Grande",
-        "location": "Venedig, Italien",
-        "views": 1250,
-        "rating": 4.8,
-        "imgSrc": "img/pexels-alexazabache-3250362.jpg",
-        "distance": 560.0
-    },
-    {
-        "title": "Cotswolds",
-        "location": "England",
-        "views": 920,
-        "rating": 4.5,
-        "imgSrc": "img/pexels-wolfgang-weiser-467045605-28546550.jpg",
-        "distance": 750.0
-    },
-    {
-        "title": "Louvre Museum",
-        "location": "Paris, Frankreich",
-        "views": 3200,
-        "rating": 4.9,
-        "imgSrc": "img/pexels-roman-jaquez-948741-2406772.jpg",
-        "distance": 600.0
-    },
-    {
-        "title": "Montmartre",
-        "location": "Paris, Frankreich",
-        "views": 1850,
-        "rating": 4.7,
-        "imgSrc": "img/pexels-alexazabache-3214975.jpg",
-        "distance": 300.0
-    },
-    {
-        "title": "Belvedere Palace",
-        "location": "Wien, Österreich",
-        "views": 600,
-        "rating": 4.8,
-        "imgSrc": "img/pexels-lucas-veiga-reis-1152403-28544173.jpg",
-        "distance": 1000.1
-    },
-    {
-        "title": "Torre de Belem",
-        "location": "Lissabon, Portugal",
-        "views": 800,
-        "rating": 4.5,
-        "imgSrc": "img/pexels-lukas-rodriguez-1845331-3680219.jpg",
-        "distance": 350.2
-    },
-    {
-        "title": "Palace of Versailles",
-        "location": "Versailles, Frankreich",
-        "views": 1800,
-        "rating": 4.8,
-        "imgSrc": "img/pexels-alexazabache-3264723.jpg",
-        "distance": 100.4
-    },
-    {
-        "title": "Cathedral of Santa Maria del Fiore",
-        "location": "Florenz, Italien",
-        "views": 1100,
-        "rating": 4.9,
-        "imgSrc": "img/pexels-ollivves-1122413.jpg",
-        "distance": 600.3
-    },
-    {
-        "title": "Kölner Dom",
-        "location": "Köln, Deutschland",
-        "views": 900,
-        "rating": 4.7,
-        "imgSrc": "img/pexels-ashleyelena-705782.jpg",
-        "distance": 650.0
-    },
-    {
-        "title": "Puy du Fou",
-        "location": "Les Epesses, Frankreich",
-        "views": 1000,
-        "rating": 4.9,
-        "imgSrc": "img/pexels-ninetysevenyears-28528632.jpg",
-        "distance": 700.5
-    },
-    {
-        "title": "Château de Chenonceau",
-        "location": "Chenonceaux, Frankreich",
-        "views": 750,
-        "rating": 4.6,
-        "imgSrc": "img/pexels-roman-odintsov-4553618.jpg",
-        "distance": 920.0
-    },
-    {
-        "title": "Reichstag",
-        "location": "Berlin, Deutschland",
-        "views": 600,
-        "rating": 4.7,
-        "imgSrc": "img/pexels-alexazabache-3250362.jpg",
-        "distance": 450.0
-    },
-    {
-        "title": "Felsenburg",
-        "location": "Wales, Großbritannien",
-        "views": 550,
-        "rating": 4.5,
-        "imgSrc": "img/pexels-leonarddahmen-2917106.jpg",
-        "distance": 1300.0
-    },
-    {
-        "title": "Alte Nationalgalerie",
-        "location": "Berlin, Deutschland",
-        "views": 400,
-        "rating": 4.8,
-        "imgSrc": "img/pexels-tracehudson-2589010.jpg",
-        "distance": 450.0
-    },
-    {
-        "title": "Eremitage",
-        "location": "Sankt Petersburg, Russland",
-        "views": 600,
-        "rating": 4.9,
-        "imgSrc": "img/pexels-rickyrecap-1586298.jpg",
-        "distance": 800.0
-    },
-    {
-        "title": "St. Vitus Cathedral",
-        "location": "Prag, Tschechische Republik",
-        "views": 800,
-        "rating": 4.7,
-        "imgSrc": "img/pexels-roman-jaquez-948741-2406772.jpg",
-        "distance": 500.0
-    },
-    {
-        "title": "Rosenberg Castle",
-        "location": "Kopenhagen, Dänemark",
-        "views": 300,
-        "rating": 4.6,
-        "imgSrc": "img/pexels-daniel-lazarov-1357330-2762921.jpg",
-        "distance": 1200.0
-    },
-    {
-        "title": "Sächsische Schweiz",
-        "location": "Dresden, Deutschland",
-        "views": 700,
-        "rating": 4.5,
-        "imgSrc": "img/pexels-tracehudson-2589010.jpg",
-        "distance": 800.0
-    },
-    {
-        "title": "Kunsthistorisches Museum",
-        "location": "Wien, Österreich",
-        "views": 900,
-        "rating": 4.8,
-        "imgSrc": "img/pexels-ashleyelena-705782.jpg",
-        "distance": 400.0
-    },
-    {
-        "title": "Alte Pinakothek",
-        "location": "München, Deutschland",
-        "views": 650,
-        "rating": 4.7,
-        "imgSrc": "img/pexels-lucas-veiga-reis-1152403-28544173.jpg",
-        "distance": 500.0
-    },
-    {
-        "title": "Galleria Vittorio Emanuele II",
-        "location": "Mailand, Italien",
-        "views": 1100,
-        "rating": 4.6,
-        "imgSrc": "img/pexels-kasuma-1785493.jpg",
-        "distance": 600.0
-    },
-    {
-        "title": "Neues Rathaus",
-        "location": "München, Deutschland",
-        "views": 800,
-        "rating": 4.8,
-        "imgSrc": "img/pexels-ollivves-1122413.jpg",
-        "distance": 500.0
-    },
-    {
-        "title": "St. George's Hall",
-        "location": "Liverpool, England",
-        "views": 400,
-        "rating": 4.5,
-        "imgSrc": "img/pexels-ninetysevenyears-28528632.jpg",
-        "distance": 1500.0
-    },
-    {
-        "title": "Athen Parthenon",
-        "location": "Athen, Griechenland",
-        "views": 1600,
-        "rating": 4.8,
-        "imgSrc": "img/pexels-margerretta-548077.jpg",
-        "distance": 1200.0
+        "imgSrc": "https://images.pexels.com/photos/5999158/pexels-photo-5999158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "distance": 600.4,
+        "description": "Der Kölner Dom ist ein herausragendes Beispiel gotischer Architektur und eines der beeindruckendsten Bauwerke Deutschlands. Der Bau begann im 13. Jahrhundert und wurde erst im 19. Jahrhundert vollendet. Mit seinen beiden markanten Türmen, die über 157 Meter hoch sind, ist der Dom das höchste Gebäude Kölns und ein UNESCO-Weltkulturerbe. Der Innenraum ist ebenso beeindruckend, mit farbenfrohen Glasfenstern und einer Vielzahl von Kunstwerken. Der Kölner Dom zieht jährlich Millionen von Touristen an und ist ein zentrales Symbol der Stadt Köln.",
+        "id": "cologne-cathedral_z9teke",
+        "price": 48
     }
 ]
